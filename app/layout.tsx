@@ -1,6 +1,10 @@
 import { FC, ReactNode } from 'react';
 import type { Metadata } from 'next';
 
+import Footer from '@/components/shared/Footer';
+import Header from '@/components/shared/Header';
+import { poppins } from '@/constants/fonts';
+
 import '@/styles/globals.scss';
 
 export const metadata: Metadata = {
@@ -18,7 +22,11 @@ interface IRootLayout {
 const RootLayout: FC<IRootLayout> = ({ children }) => {
     return (
         <html lang="en">
-            <body>{children}</body>
+            <body className={poppins.className}>
+                <Header />
+                {children}
+                <Footer />
+            </body>
         </html>
     );
 };
