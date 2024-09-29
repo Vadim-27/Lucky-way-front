@@ -7,5 +7,5 @@ export const poppins = Poppins({
 
 export const dmSans = DM_Sans({
     subsets: ['latin'],
-    weight: ['600'],
+    weight: ['600, 700'],
 });
