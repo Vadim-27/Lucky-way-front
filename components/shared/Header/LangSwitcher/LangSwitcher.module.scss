@@ -45,7 +45,7 @@
                 @apply absolute bottom-0 left-0 right-0 h-[1px] w-full scale-0 bg-orange-700 transition-transform duration-150 ease-linear content-[''];
             }
 
-            &:hover {
+            &:is(:hover, :focus) {
                 &::after {
                     @apply scale-100;
                 }
