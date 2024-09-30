@@ -9,9 +9,10 @@ import scss from './LangSwitcher.module.scss';
 
 interface ILangSwitcher {
     className?: string;
+    id?: string;
 }
 
-const LangSwitcher: FC<ILangSwitcher> = ({ className }) => {
+const LangSwitcher: FC<ILangSwitcher> = ({ id, className }) => {
     const [selectedOption, setSelectedOption] = useState<IOption | null>(options[0]);
 
     const filteredOptions = options.filter((option) => option.value !== selectedOption?.value);
@@ -23,7 +24,7 @@ const LangSwitcher: FC<ILangSwitcher> = ({ className }) => {
                 value={selectedOption}
                 onChange={setSelectedOption}
                 isSearchable={false}
-                instanceId="theme-select"
+                instanceId={id}
                 className={scss.selectContainer}
                 classNamePrefix={scss.select}
                 unstyled

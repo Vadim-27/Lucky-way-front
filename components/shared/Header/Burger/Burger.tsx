@@ -50,7 +50,7 @@ const Burger: FC<IBurger> = ({ className }) => {
                     </button>
                     <Logo className={scss.logo} />
                     <Navigation onClose={toggleDrawer} className={scss.navigation} />
-                    <LangSwitcher />
+                    <LangSwitcher id="mobile-switcher" />
                 </div>
             </Drawer>
         </div>

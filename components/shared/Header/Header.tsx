@@ -12,7 +12,7 @@ const Header = () => {
                 <Logo />
                 <Navigation className={scss.navigation} />
                 <div className={scss.langSwitcherWrapper}>
-                    <LangSwitcher className={scss.langSwitcher} />
+                    <LangSwitcher id="desktop-switcher" className={scss.langSwitcher} />
                 </div>
 
                 <Burger className={scss.burger} />

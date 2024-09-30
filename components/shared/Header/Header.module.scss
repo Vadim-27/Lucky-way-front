@@ -1,14 +1,14 @@
 @import '@/styles/mixins';
 
 .header {
-    @apply mx-auto bg-blue-800 p-4;
+    @apply mx-auto p-4 absolute w-full;
 
     @include media-rules(tablet) {
-        @apply bg-[#5a5a5a] p-8;
+        @apply bg-[#5a5a5a] p-8 static;
     }
 
     @include media-rules(desktop) {
-        @apply bg-blue-800 px-[20rem] py-6;
+        @apply bg-transparent px-[20rem] py-6 absolute;
     }
 }
 
@@ -38,6 +38,7 @@
     }
 
     & .langSwitcher {
+    
         @include media-rules(desktop) {
             @apply absolute right-0 -top-7 block w-[132px];
         }

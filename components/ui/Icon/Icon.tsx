@@ -7,7 +7,10 @@ type IconVariant =
     | 'logo'
     | 'burger'
     | 'close'
-    | 'uk';
+    | 'uk'
+    | 'cze'
+    | 'deu'
+    | 'arrow';
 
 interface IIcon extends SVGProps<SVGSVGElement> {
     variant: IconVariant;

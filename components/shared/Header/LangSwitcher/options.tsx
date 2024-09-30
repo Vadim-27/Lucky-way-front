@@ -21,20 +21,20 @@ const options: IOption[] = [
         ),
     },
     {
-        value: 'ua',
+        value: 'de',
         label: (
             <div className={scss.option}>
-                <Icon variant="uk" className={scss.icon} />
-                <span className={clsx(dmSans.className, scss.lang)}>Ukr</span>
+                <Icon variant="deu" className={scss.icon} />
+                <span className={clsx(dmSans.className, scss.lang)}>deu</span>
             </div>
         ),
     },
     {
-        value: 'fr',
+        value: 'cz',
         label: (
             <div className={scss.option}>
-                <Icon variant="uk" className={scss.icon} />
-                <span className={clsx(dmSans.className, scss.lang)}>Fra</span>
+                <Icon variant="cze" className={scss.icon} />
+                <span className={clsx(dmSans.className, scss.lang)}>cze</span>
             </div>
         ),
     },

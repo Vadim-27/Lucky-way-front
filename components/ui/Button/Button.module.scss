@@ -1,0 +1,23 @@
+.button {
+    @apply flex h-[62px] w-[200px] items-center justify-center leading-normal text-white rounded-[100px] gap-3 transition-colors duration-150 ease-linear;
+}
+
+.primary {
+    @apply bg-button;
+
+    &:hover {
+        @apply bg-orange-700;
+    }
+}
+
+.secondary {
+    @apply border border-button bg-black-25%;
+
+    &:hover {
+        @apply bg-black-45%;
+    }
+}
+
+.arrowIcon {
+    @apply w-[2.125rem] h-[2.125rem] stroke-white fill-none;
+}
