@@ -2,6 +2,10 @@
 
 import { FC, useState } from 'react';
 import ReactSelect from 'react-select';
+import { useLocale } from 'next-intl';
+
+import { Locale } from '@/i18n/config';
+import { setUserLocale } from '@/services/locale';
 
 import options, { IOption } from './options';
 
@@ -13,16 +17,25 @@ interface ILangSwitcher {
 }
 
 const LangSwitcher: FC<ILangSwitcher> = ({ id, className }) => {
-    const [selectedOption, setSelectedOption] = useState<IOption | null>(options[0]);
+    const locale = useLocale();
+    const defaultOption = options.find((option) => option.value === locale) || null;
+    const [selectedOption, setSelectedOption] = useState<IOption | null>(defaultOption);
 
     const filteredOptions = options.filter((option) => option.value !== selectedOption?.value);
+
+    const changeOption = (option: IOption | null) => {
+        if (option) {
+            setSelectedOption(option);
+            setUserLocale(option.value as Locale);
+        }
+    };
 
     return (
         <div className={className}>
             <ReactSelect
                 options={filteredOptions}
                 value={selectedOption}
-                onChange={setSelectedOption}
+                onChange={changeOption}
                 isSearchable={false}
                 instanceId={id}
                 className={scss.selectContainer}
