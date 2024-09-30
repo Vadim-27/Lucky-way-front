@@ -1,0 +1,46 @@
+@import '@/styles/mixins';
+
+.header {
+    @apply mx-auto p-4 absolute w-full;
+
+    @include media-rules(tablet) {
+        @apply bg-[#5a5a5a] p-8 static;
+    }
+
+    @include media-rules(desktop) {
+        @apply bg-transparent px-[20rem] py-6 absolute;
+    }
+}
+
+.wrapper {
+    @apply relative flex items-center justify-between;
+}
+
+.burger {
+    @include media-rules(desktop) {
+        @apply hidden;
+    }
+}
+
+.navigation {
+    @apply hidden;
+
+    @include media-rules(desktop) {
+        @apply block;
+    }
+}
+
+.langSwitcherWrapper {
+    @apply relative hidden;
+
+    @include media-rules(desktop) {
+        @apply block;
+    }
+
+    & .langSwitcher {
+    
+        @include media-rules(desktop) {
+            @apply absolute right-0 -top-7 block w-[132px];
+        }
+    }
+}

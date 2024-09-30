@@ -1,6 +1,16 @@
 import { FC, SVGProps } from 'react';
 
-type IconVariant = 'low-emission-zone' | 'payment-of-fines' | 'toll-roads';
+type IconVariant =
+    | 'low-emission-zone'
+    | 'payment-of-fines'
+    | 'toll-roads'
+    | 'logo'
+    | 'burger'
+    | 'close'
+    | 'uk'
+    | 'cze'
+    | 'deu'
+    | 'arrow';
 
 interface IIcon extends SVGProps<SVGSVGElement> {
     variant: IconVariant;
