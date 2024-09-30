@@ -1,0 +1,37 @@
+.closeButton {
+    @apply transition-transform duration-150 ease-linear;
+
+    &:is(:hover, :focus) {
+        @apply rotate-90;
+    }
+}
+
+.burgerIcon {
+    @apply h-12 w-12 stroke-white;
+}
+
+.drawer {
+    &:global(.EZDrawer__container) {
+        @apply bg-black;
+    }
+}
+
+.drawerContent {
+    @apply relative px-4 pt-[104px];
+}
+
+.logo {
+    @apply mb-12 flex justify-center;
+}
+
+.closeButton {
+    @apply absolute right-5 top-8;
+
+    & .closeIcon {
+        @apply stroke-white;
+    }
+}
+
+.navigation {
+    @apply mb-4;
+}

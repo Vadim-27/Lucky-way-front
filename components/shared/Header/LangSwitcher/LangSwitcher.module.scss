@@ -1,0 +1,47 @@
+.option {
+    @apply flex items-center gap-2;
+}
+
+.icon {
+    @apply rounded-full;
+}
+
+.lang {
+    @apply font-semibold uppercase leading-normal text-white transition-colors duration-150 ease-linear;
+}
+
+.selectContainer {
+    @apply inline-block rounded-[42px] border border-button ;
+
+    & .select {
+        &:global(__control) {
+            @apply cursor-pointer p-4 gap-2;
+        }
+
+        &:global(__control--menu-is-open) svg {
+            @apply rotate-180;
+        }
+
+        &:global(__indicator svg) {
+            @apply fill-white;
+        }
+
+        &:global(__menu) {
+            @apply px-4 static pb-4;
+        }
+
+        &:global(__menu-list) {
+            @apply flex flex-col gap-4;
+        }
+
+        &:global(__option) {
+            @apply cursor-pointer relative; 
+
+            &:hover span {
+                @apply text-button
+            }
+        }
+    }
+
+
+}
