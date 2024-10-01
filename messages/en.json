@@ -1,4 +1,10 @@
 {
+    "Navigation": {
+        "about": "About",
+        "features": "Features",
+        "pricing": "Pricing",
+        "blog": "Blog"
+    },
     "Hero": {
         "title": "Start Your Easy Way with Company Name",
         "description": "Purchase vignettes for toll roads, explore green zones in cities, and pay fines effortlessly. Travel smart, drive smoothly.",
