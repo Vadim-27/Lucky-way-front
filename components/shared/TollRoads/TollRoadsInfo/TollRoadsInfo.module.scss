@@ -1,0 +1,29 @@
+@import 'styles/mixins';
+
+.wrapper {
+    @apply mb-6;
+}
+
+.headWrapper {
+    @apply mb-12 flex items-center justify-between;
+
+    @include media-rules(desktop) {
+        @apply pl-[112px];
+    }
+
+    & .link {
+        @apply flex items-center gap-2 uppercase leading-normal text-button;
+    }
+
+    & .chevronIcon {
+        @apply fill-none stroke-button;
+    }
+}
+
+.description {
+    @apply text-xl leading-normal text-black;
+
+    @include media-rules(desktop) {
+        @apply pr-[120px];
+    }
+}

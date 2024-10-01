@@ -5,6 +5,8 @@ import Footer from '@/components/shared/Footer';
 import Header from '@/components/shared/Header';
 import { poppins } from '@/constants/fonts';
 
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import '@/styles/globals.scss';
 
 export const metadata: Metadata = {

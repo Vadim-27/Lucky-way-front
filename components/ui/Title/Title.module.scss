@@ -1,0 +1,9 @@
+@import '@/styles/mixins';
+
+.title {
+    @apply text-3xl font-semibold uppercase leading-normal tracking-[0.03em] text-black;
+
+    @include media-rules(tablet) {
+        @apply text-[2.5rem];
+    }
+}

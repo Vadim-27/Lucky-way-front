@@ -2,13 +2,13 @@
 
 .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-        url('/images/hero-bg.jpg');
+        url('/images/hero/hero-bg.jpg');
 
     @apply bg-cover bg-center bg-no-repeat py-[106px];
 
     @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
         background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-            url('/images/hero-bg@2x.jpg');
+            url('/images/hero/hero-bg@2x.jpg');
     }
 
     @include media-rules(tablet) {
