@@ -7,8 +7,6 @@ import { useTranslations } from 'next-intl';
 
 import { dmSans } from '@/constants/fonts';
 
-import navigation from './navigation.json';
-
 import scss from './Navigation.module.scss';
 
 interface INavigation {
