@@ -5,7 +5,7 @@
 }
 
 .tollRoadsList {
-    @apply mx-auto max-w-screen-mobile pr-3;
+    @apply mx-auto max-w-screen-mobile pr-3 max-h-[468px];
 
     @include media-rules(tablet) {
         @apply max-w-screen-tablet pl-5 pr-8;
@@ -45,13 +45,33 @@
 }
 
 .slider {
-    @apply relative;
+    @apply relative h-full;
 
     :global(.slick-track) {
         @apply flex gap-4;
+
+        @include media-rules(tablet) {
+            @apply gap-8;
+        }
     }
 
     :global(.slick-list) {
         padding: 0 !important;
+    }
+
+    :global(.slick-dots li button:before) {
+        @apply hidden
+    }
+
+    :global(.slick-dots li) {
+        @apply w-auto h-auto;
+    }
+
+    :global(.slick-dots li button) {
+        @apply w-4 h-4 bg-black-25% rounded-full transition-transform duration-150 ease-linear -rotate-180;
+    }
+
+    :global(.slick-dots li.slick-active button) {
+        @apply bg-button w-[76px] rotate-180;
     }
 }

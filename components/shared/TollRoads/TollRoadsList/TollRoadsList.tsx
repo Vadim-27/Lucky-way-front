@@ -24,12 +24,9 @@ const TollRoadsList = () => {
         </li>
     );
 
-    console.log(defaultItem);
-
     return (
         <ul className={scss.tollRoadsList}>
             <CustomSlider className={scss.slider}>
-                {/* {defaultItem} */}
                 {countries.map((country) => (
                     <li key={country.id} className={scss.item}>
                         <Link href={`/${country.slug}`} className={scss.link}>
@@ -43,6 +40,7 @@ const TollRoadsList = () => {
                         </Link>
                     </li>
                 ))}
+                {defaultItem}
             </CustomSlider>
         </ul>
     );
