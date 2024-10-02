@@ -10,7 +10,9 @@ type IconVariant =
     | 'uk'
     | 'cze'
     | 'deu'
-    | 'arrow';
+    | 'arrow'
+    | 'chevron-right'
+    | 'road';
 
 interface IIcon extends SVGProps<SVGSVGElement> {
     variant: IconVariant;

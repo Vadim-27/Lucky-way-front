@@ -1,0 +1,77 @@
+@import '@/styles/mixins';
+
+.list {
+    @apply flex flex-wrap items-center gap-4;
+}
+
+.tollRoadsList {
+    @apply mx-auto max-w-screen-mobile pr-3 max-h-[468px];
+
+    @include media-rules(tablet) {
+        @apply max-w-screen-tablet pl-5 pr-8;
+    }
+
+    @include media-rules(desktop) {
+        @apply max-w-screen-desktop pl-[306px] pr-[320px];
+    }
+}
+
+.roadItem {
+    @apply relative h-[468px] w-[288px] overflow-hidden rounded-2xl;
+}
+
+.roadIcon {
+    @apply ml-auto h-full w-[250px];
+}
+
+.title {
+    @apply absolute left-4 top-[130px] text-2xl uppercase leading-[1.17] text-black;
+}
+
+.item {
+    @apply relative max-h-[468px] overflow-hidden rounded-2xl;
+}
+
+.link {
+    @apply block;
+}
+
+.image {
+    @apply h-full w-full;
+}
+
+.name {
+    @apply absolute bottom-0 left-0 w-full bg-black-blur-10% p-4 text-[1.75rem] font-medium leading-[2.25rem] text-white backdrop-blur;
+}
+
+.slider {
+    @apply relative h-full;
+
+    :global(.slick-track) {
+        @apply flex gap-4;
+
+        @include media-rules(tablet) {
+            @apply gap-8;
+        }
+    }
+
+    :global(.slick-list) {
+        padding: 0 !important;
+    }
+
+    :global(.slick-dots li button:before) {
+        @apply hidden
+    }
+
+    :global(.slick-dots li) {
+        @apply w-auto h-auto;
+    }
+
+    :global(.slick-dots li button) {
+        @apply w-4 h-4 bg-black-25% rounded-full transition-transform duration-150 ease-linear -rotate-180;
+    }
+
+    :global(.slick-dots li.slick-active button) {
+        @apply bg-button w-[76px] rotate-180;
+    }
+}
