@@ -1,0 +1,14 @@
+{
+    "Navigation": {
+        "about": "Über uns",
+        "features": "Funktionen",
+        "pricing": "Preise",
+        "blog": "Blog"
+    },
+    "Hero": {
+        "title": "Beginnen Sie Ihren einfachen Weg mit einem Firmennamen",
+        "description": "Kaufen Sie Vignetten für Mautstraßen, erkunden Sie Umweltzonen in Städten und bezahlen Sie Bußgelder mühelos. Reisen Sie clever, fahren Sie entspannt.",
+        "cta": "Los geht's",
+        "secondary": "Mehr erfahren"
+    }
+}

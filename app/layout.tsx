@@ -1,5 +1,7 @@
 import { FC, ReactNode } from 'react';
 import type { Metadata } from 'next';
+import { NextIntlClientProvider } from 'next-intl';
+import { getLocale, getMessages } from 'next-intl/server';
 
 import Footer from '@/components/shared/Footer';
 import Header from '@/components/shared/Header';
@@ -21,13 +23,20 @@ interface IRootLayout {
     children: ReactNode;
 }
 
-const RootLayout: FC<IRootLayout> = ({ children }) => {
+const RootLayout: FC<IRootLayout> = async ({ children }) => {
+    const locale = await getLocale();
+
+    // Providing all messages to the client
+    // side is the easiest way to get started
+    const messages = await getMessages();
     return (
-        <html lang="en">
+        <html lang={locale}>
             <body className={poppins.className}>
-                <Header />
-                {children}
-                <Footer />
+                <NextIntlClientProvider messages={messages}>
+                    <Header />
+                    {children}
+                    <Footer />
+                </NextIntlClientProvider>
             </body>
         </html>
     );
