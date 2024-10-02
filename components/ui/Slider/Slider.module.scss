@@ -1,0 +1,26 @@
+.embla {
+    @apply relative overflow-hidden;
+}
+
+.embla__container {
+    @apply flex;
+}
+
+.dots {
+    @apply mt-12 flex justify-center;
+}
+
+.dot {
+    @apply mx-[5px] h-4 w-4 -rotate-180 cursor-pointer rounded-full bg-black-25%;
+    transition:
+        transform 300ms linear,
+        background-color 300ms linear;
+
+    &:hover {
+        @apply bg-button;
+    }
+}
+
+.dot.active {
+    @apply w-[76px] rotate-180 bg-button;
+}

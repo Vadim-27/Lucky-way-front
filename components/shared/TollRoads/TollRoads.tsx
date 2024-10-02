@@ -10,8 +10,8 @@ const TollRoads = () => {
         <section className={scss.tollRoads}>
             <Container>
                 <TollRoadsInfo />
+                <TollRoadsList />
             </Container>
-            <TollRoadsList />
         </section>
     );
 };
