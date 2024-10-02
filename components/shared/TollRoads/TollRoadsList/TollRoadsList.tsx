@@ -2,8 +2,8 @@ import clsx from 'clsx';
 import Image, { StaticImageData } from 'next/image';
 import Link from 'next/link';
 
-import CustomSlider from '@/components/ui/CustomSlider';
 import Icon from '@/components/ui/Icon';
+import Slider from '@/components/ui/Slider';
 import { dmSans } from '@/constants/fonts';
 import countries from '@/data/countries';
 
@@ -24,24 +24,25 @@ const TollRoadsList = () => {
         </li>
     );
 
+    console.log(defaultItem);
+
     return (
         <ul className={scss.tollRoadsList}>
-            <CustomSlider className={scss.slider}>
+            <Slider className={scss.slider}>
                 {countries.map((country) => (
                     <li key={country.id} className={scss.item}>
-                        <Link href={`/${country.slug}`} className={scss.link}>
+                        <Link href={`/${country.slug}`}>
                             <Image
                                 src={country.image}
-                                alt={country.name}
                                 priority
+                                alt={country.name}
                                 className={scss.image}
                             />
                             <p className={scss.name}>{country.name}</p>
                         </Link>
                     </li>
                 ))}
-                {defaultItem}
-            </CustomSlider>
+            </Slider>
         </ul>
     );
 };

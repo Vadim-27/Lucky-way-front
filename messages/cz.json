@@ -1,0 +1,14 @@
+{
+    "Navigation": {
+        "about": "O nás",
+        "features": "Funkce",
+        "pricing": "Ceny",
+        "blog": "Blog"
+    },
+    "Hero": {
+        "title": "Začněte svou snadnou cestu s názvem společnosti",
+        "description": "Zakupte si dálniční známky pro zpoplatněné silnice, prozkoumejte zelené zóny ve městech a snadno plaťte pokuty. Cestujte chytře, jezděte plynule.",
+        "cta": "Začněte",
+        "secondary": "Zjistit více"
+    }
+}

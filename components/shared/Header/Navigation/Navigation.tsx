@@ -3,10 +3,9 @@ import { FC } from 'react';
 import clsx from 'clsx';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useTranslations } from 'next-intl';
 
 import { dmSans } from '@/constants/fonts';
-
-import navigation from './navigation.json';
 
 import scss from './Navigation.module.scss';
 
@@ -16,11 +15,19 @@ interface INavigation {
 }
 
 const Navigation: FC<INavigation> = ({ onClose, className }) => {
+    const t = useTranslations('Navigation');
     const pathname = usePathname();
+
+    const navItems = [
+        { label: t('about'), href: '/about' },
+        { label: t('features'), href: '/features' },
+        { label: t('pricing'), href: '/pricing' },
+        { label: t('blog'), href: '/blog' },
+    ];
     return (
         <nav className={className}>
             <ul className={scss.list}>
-                {navigation.map(({ label, href }) => {
+                {navItems.map(({ label, href }) => {
                     const isActive = pathname === href;
                     return (
                         <li key={label}>
