@@ -32,7 +32,7 @@ const Navigation: FC<INavigation> = ({ onClose, className }) => {
                     return (
                         <li key={label}>
                             <Link
-                                href={href}
+                                href={pathname === '/' ? `#${label.toLowerCase()}` : href}
                                 onClick={onClose}
                                 className={clsx(
                                     dmSans.className,
