@@ -7,7 +7,7 @@ import scss from './TollRoads.module.scss';
 
 const TollRoads = () => {
     return (
-        <section className={scss.tollRoads}>
+        <section id="about" className={scss.tollRoads}>
             <Container>
                 <TollRoadsInfo />
                 <TollRoadsList />
