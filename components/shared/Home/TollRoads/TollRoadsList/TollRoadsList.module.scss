@@ -1,19 +1,41 @@
 @import '@/styles/mixins';
 
-.list {
-    @apply flex flex-wrap items-center gap-4;
+.wrapper {
+    @apply relative;
+    
+    @include media-rules(tablet) {
+        @apply flex;
+    }
 }
 
 .roadItem {
-    @apply /*h-[468px] w-[288px]*/ relative overflow-hidden rounded-2xl;
+    @apply relative overflow-hidden rounded-2xl mb-4;
+
+    @include media-rules(tablet) {
+        @apply w-[308px];
+    }
 }
 
 .roadIcon {
-    @apply ml-auto h-full w-[250px];
+    @apply mx-auto h-[200px] w-[107px];
+
+    @include media-rules(tablet) {
+        @apply h-[468px] w-[268px];
+    }
 }
 
 .title {
-    @apply absolute left-4 top-[130px] text-2xl uppercase leading-[1.17] text-black;
+    @apply absolute left-[50px] top-[66px] text-base uppercase leading-[1.17] text-black;
+
+    @include media-rules(tablet) {
+        @apply text-2xl left-1 top-[134px];
+    }
+}
+
+.tollRoadsList {
+    @include media-rules(tablet) {
+        @apply flex-1;
+    }
 }
 
 .slider {

@@ -12,7 +12,7 @@ const Hero = () => {
     // const text = await getHeroText(locale as Locale);
 
     return (
-        <section className={scss.hero}>
+        <section className={scss.hero} id="hero">
             <Container>
                 <div className={scss.wrapper}>
                     <h1 className={scss.title}>{t('title')}</h1>
