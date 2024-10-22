@@ -7,6 +7,10 @@
         @apply max-w-screen-tablet px-8;
     }
 
+    @include media-rules(laptop) {
+        @apply max-w-screen-laptop px-[5rem];
+    }
+
     @include media-rules(desktop) {
         @apply max-w-screen-desktop px-[20rem];
     }

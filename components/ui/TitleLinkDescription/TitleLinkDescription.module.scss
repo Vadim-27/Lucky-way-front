@@ -1,0 +1,45 @@
+@import 'styles/mixins';
+
+.wrapper {
+    @apply mb-6;
+}
+
+.headWrapper {
+    @apply mb-12 flex items-end justify-between gap-2;
+
+    @include media-rules(tablet) {
+        @apply items-center;
+    }
+
+    @include media-rules(laptop) {
+        @apply pl-[112px];
+    }
+
+    & .title {
+        @apply max-w-[174px];
+
+        @include media-rules(tablet) {
+            @apply max-w-full;
+        }
+
+        &.longTitle {
+            @apply max-w-[214px];
+        }
+    }
+
+    & .link {
+        @apply flex items-center gap-2 uppercase leading-normal text-button;
+    }
+
+    & .chevronIcon {
+        @apply fill-none stroke-button;
+    }
+}
+
+.description {
+    @apply text-xl leading-normal text-black;
+
+    @include media-rules(laptop) {
+        @apply pr-[120px];
+    }
+}
