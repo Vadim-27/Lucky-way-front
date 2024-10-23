@@ -24,6 +24,10 @@
 
         &.longTitle {
             @apply max-w-[214px];
+
+            @include media-rules(tablet) {
+                @apply max-w-full;
+            }
         }
     }
 

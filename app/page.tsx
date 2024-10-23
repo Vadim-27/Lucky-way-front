@@ -1,5 +1,6 @@
 import Advantages from '@/components/shared/Home/Advantages';
 import Hero from '@/components/shared/Home/Hero';
+import LowEmissionZone from '@/components/shared/Home/LowEmissionZone';
 import TollRoads from '@/components/shared/Home/TollRoads';
 
 const HomePage = () => {
@@ -8,6 +9,7 @@ const HomePage = () => {
             <Hero />
             <TollRoads />
             <Advantages />
+            <LowEmissionZone />
         </main>
     );
 };
