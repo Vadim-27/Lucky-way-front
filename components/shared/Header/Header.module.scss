@@ -7,8 +7,12 @@
         @apply p-8;
     }
 
+    @include media-rules(laptop) {
+        @apply px-[5rem] py-6;
+    }
+
     @include media-rules(desktop) {
-        @apply bg-transparent px-[20rem] py-6;
+        @apply px-[20rem];
     }
 }
 

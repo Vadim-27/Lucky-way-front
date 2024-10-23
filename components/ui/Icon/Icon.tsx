@@ -13,6 +13,7 @@ export type IconVariant =
     | 'arrow'
     | 'chevron-right'
     | 'road'
+    | 'green-zone'
     | 'directly'
     | 'fast'
     | 'payments'
