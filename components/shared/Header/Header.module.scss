@@ -43,7 +43,7 @@
 
     & .langSwitcher {
     
-        @include media-rules(desktop) {
+        @include media-rules(laptop) {
             @apply absolute right-0 -top-7 block w-[132px];
         }
     }
