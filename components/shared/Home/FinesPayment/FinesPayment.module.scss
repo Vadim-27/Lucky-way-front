@@ -1,0 +1,53 @@
+@import '@/styles/mixins';
+
+.finesPayment {
+    @apply bg-[linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('/images/fines/fines.jpg')] bg-cover bg-[60%] py-[7rem];
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        @apply bg-[linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('/images/fines/fines@2x.jpg')];
+    }
+
+    @include media-rules(tablet) {
+        @apply bg-center py-[10.125rem];
+    }
+
+    & .container {
+        @apply px-6;
+    }
+}
+
+.wrapper {
+    @apply rounded-2xl bg-[#000]/45 p-6 text-center;
+
+    @include media-rules(tablet) {
+        @apply mx-auto max-w-[600px] p-8;
+    }
+}
+
+.line {
+    @apply mb-8 h-[5px] w-full bg-button;
+
+    @include media-rules(tablet) {
+        @apply mx-auto w-[384px];
+    }
+}
+
+.title {
+    @apply mb-8 text-[1.75rem] font-semibold uppercase leading-normal tracking-[0.04em] text-white;
+
+    @include media-rules(tablet) {
+        @apply text-[2.5rem] tracking-[0.03em];
+    }
+}
+
+.description {
+    @apply mb-8 text-xl leading-normal text-white;
+
+    @include media-rules(tablet) {
+        @apply px-1;
+    }
+}
+
+.buttonWrapper {
+    @apply flex justify-center;
+}

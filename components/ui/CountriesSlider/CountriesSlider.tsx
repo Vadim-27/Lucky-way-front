@@ -44,12 +44,15 @@ const CountriesSlider: FC<ICountriesSlider> = ({ countries, title, section = 'to
                     {countries.map(({ id, image, image_2, contour, name, slug }) => (
                         <li key={id} className={scss.item}>
                             <Link href={`/${slug}`} className={scss.link}>
-                                <Image
-                                    src={section === 'tollRoads' ? image : image_2}
-                                    priority
-                                    alt={name}
-                                    className={scss.image}
-                                />
+                                <div className={scss.imageWrapper}>
+                                    <Image
+                                        src={section === 'tollRoads' ? image : image_2}
+                                        priority
+                                        alt={name}
+                                        className={scss.image}
+                                    />
+                                </div>
+
                                 <p className={scss.name}>{name}</p>
 
                                 {section === 'lowEmissionZone' && (
