@@ -8,6 +8,14 @@
     }
 }
 
+.footerList {
+    @apply mb-5 flex-row flex-wrap justify-center;
+
+    @include media-rules(tablet) {
+        @apply gap-16;
+    }
+}
+
 .link {
     @apply relative inline-block px-4 py-2 font-semibold uppercase leading-normal text-white transition-colors duration-150 ease-linear;
 

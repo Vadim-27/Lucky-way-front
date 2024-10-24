@@ -17,7 +17,11 @@ export type IconVariant =
     | 'directly'
     | 'fast'
     | 'payments'
-    | 'use';
+    | 'use'
+    | 'facebook'
+    | 'instagram'
+    | 'twitter'
+    | 'linkedin';
 
 interface IIcon extends SVGProps<SVGSVGElement> {
     variant: IconVariant;
