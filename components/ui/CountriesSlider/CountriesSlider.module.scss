@@ -62,6 +62,12 @@
     @apply relative;
 }
 
+.imageWrapper {
+    &::before {
+        @apply content-[''] absolute left-0 top-0 right-0 bottom-0 bg-[#000]/25;
+    }
+}
+
 .image {
     @apply h-full w-full;
 }
