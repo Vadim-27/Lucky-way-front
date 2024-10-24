@@ -60,11 +60,17 @@
 
 .link {
     @apply relative;
+
+    &:hover .imageWrapper {
+        @apply scale-105;
+    }
 }
 
 .imageWrapper {
+    @apply transition-transform duration-150 ease-linear;
+    
     &::before {
-        @apply content-[''] absolute left-0 top-0 right-0 bottom-0 bg-[#000]/25;
+        @apply absolute bottom-0 left-0 right-0 top-0 bg-[#000]/25 content-[''];
     }
 }
 
