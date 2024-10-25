@@ -1,13 +1,31 @@
 import clsx from 'clsx';
+import { useTranslations } from 'next-intl';
 
 import Container from '@/components/ui/Container';
 import Icon, { IconVariant } from '@/components/ui/Icon';
 
-import servicesData from './servicesData.json';
-
 import scss from './ServiceHighlights.module.scss';
 
 const ServiceHighlights = () => {
+    const t = useTranslations('ServiceHighlights');
+
+    const servicesData = [
+        {
+            icon: 'toll-roads',
+            title: t('tollRoads.title'),
+            description: t('tollRoads.description'),
+        },
+        {
+            icon: 'low-emission-zone',
+            title: t('lowEmissionZone.title'),
+            description: t('lowEmissionZone.description'),
+        },
+        {
+            icon: 'payment-of-fines',
+            title: t('paymentOfFines.title'),
+            description: t('paymentOfFines.description'),
+        },
+    ];
     return (
         <section className={scss.serviceHighlights}>
             <Container>

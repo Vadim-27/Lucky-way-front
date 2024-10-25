@@ -10,5 +10,42 @@
         "description": "Kaufen Sie Vignetten für Mautstraßen, erkunden Sie Umweltzonen in Städten und bezahlen Sie Bußgelder mühelos. Reisen Sie clever, fahren Sie entspannt.",
         "cta": "Los geht's",
         "secondary": "Mehr erfahren"
+    },
+    "ServiceHighlights": {
+        "tollRoads": {
+            "title": "Mautstraßen",
+            "description": "Kaufen Sie Vignetten für Mautstraßen, erkunden Sie grüne Zonen in Städten und zahlen Sie Bußgelder mühelos. Reisen Sie klug, fahren Sie reibungslos."
+        },
+        "lowEmissionZone": {
+            "title": "Niedrigemissionszone",
+            "description": "Kaufen Sie Vignetten für Mautstraßen, erkunden Sie grüne Zonen in Städten und zahlen Sie Bußgelder mühelos. Reisen Sie klug, fahren Sie reibungslos."
+        },
+        "paymentOfFines": {
+            "title": "Zahlung von Bußgeldern",
+            "description": "Kaufen Sie Vignetten für Mautstraßen, erkunden Sie grüne Zonen in Städten und zahlen Sie Bußgelder mühelos. Reisen Sie klug, fahren Sie reibungslos."
+        }
+    },
+    "Advantages": {
+        "fast": {
+            "title": "Schnell und bequem",
+            "description": "Vermeiden Sie den Aufwand, an Raststätten anzuhalten und in der Schlange zu warten."
+        },
+        "use": {
+            "title": "Sofortige Nutzung",
+            "description": "E-Vignetten sind sofort aktiv und können kurz zuvor gekauft werden."
+        },
+        "directly": {
+            "title": "Direkt auf Ihrem Telefon",
+            "description": "Kaufen Sie die E-Vignette auf Ihrem Handy, während Sie noch unterwegs sind."
+        },
+        "payments": {
+            "title": "Sichere Online-Zahlungen",
+            "description": "Mit unserer Flex-Vignette können Sie das Startdatum später anpassen, wenn nötig."
+        }
+    },
+    "FinesPayment": {
+        "title": "Bezahlung von Geldstrafen",
+        "description": "Schnelle und einfache Bezahlung von Bußgeldern! Bezahlen Sie Ihre Bußgelder in nur einer Minute auf unserer Website – einfach und bequem.",
+        "button": "Jetzt bezahlen"
     }
 }
