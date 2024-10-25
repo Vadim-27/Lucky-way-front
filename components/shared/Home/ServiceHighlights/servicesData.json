@@ -1,0 +1,19 @@
+[
+    {
+        "icon": "toll-roads",
+        "title": "Toll roads",
+        "description": "Purchase vignettes for toll roads, explore green zones in cities, and pay fines effortlessly. Travel smart, drive smoothly."
+    },
+
+    {
+        "icon": "low-emission-zone",
+        "title": "Low Emission Zone",
+        "description": "Purchase vignettes for toll roads, explore green zones in cities, and pay fines effortlessly. Travel smart, drive smoothly."
+    },
+
+    {
+        "icon": "payment-of-fines",
+        "title": "Payment of Fines",
+        "description": "Purchase vignettes for toll roads, explore green zones in cities, and pay fines effortlessly. Travel smart, drive smoothly."
+    }
+]
