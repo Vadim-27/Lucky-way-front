@@ -1,13 +1,20 @@
 import clsx from 'clsx';
+import { useTranslations } from 'next-intl';
 
 import Container from '@/components/ui/Container';
 import Icon, { IconVariant } from '@/components/ui/Icon';
 
-import advantagesData from './advantagesData.json';
-
 import scss from './Advantages.module.scss';
 
 const Advantages = () => {
+    const t = useTranslations('Advantages');
+
+    const advantagesData = [
+        { icon: 'fast', title: t('fast.title'), description: t('fast.description') },
+        { icon: 'use', title: t('use.title'), description: t('use.description') },
+        { icon: 'directly', title: t('directly.title'), description: t('directly.description') },
+        { icon: 'payments', title: t('payments.title'), description: t('payments.description') },
+    ];
     return (
         <section className={scss.advantages}>
             <Container>

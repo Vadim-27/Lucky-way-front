@@ -10,5 +10,42 @@
         "description": "Zakupte si dálniční známky pro zpoplatněné silnice, prozkoumejte zelené zóny ve městech a snadno plaťte pokuty. Cestujte chytře, jezděte plynule.",
         "cta": "Začněte",
         "secondary": "Zjistit více"
+    },
+    "ServiceHighlights": {
+        "tollRoads": {
+            "title": "Dálniční známky",
+            "description": "Kupte si dálniční známky, objevujte zelené zóny ve městech a plaťte pokuty bez obtíží. Cestujte chytře, jezděte plynule."
+        },
+        "lowEmissionZone": {
+            "title": "Nízkou emisní zónu",
+            "description": "Kupte si dálniční známky, objevujte zelené zóny ve městech a plaťte pokuty bez obtíží. Cestujte chytře, jezděte plynule."
+        },
+        "paymentOfFines": {
+            "title": "Úhrada pokut",
+            "description": "Kupte si dálniční známky, objevujte zelené zóny ve městech a plaťte pokuty bez obtíží. Cestujte chytře, jezděte plynule."
+        }
+    },
+    "Advantages": {
+        "fast": {
+            "title": "Rychlé a pohodlné",
+            "description": "Vyhněte se zastavování na odpočívadlech a čekání ve frontě."
+        },
+        "use": {
+            "title": "Okamžité použití",
+            "description": "E-známky jsou aktivní hned a lze je zakoupit těsně předem."
+        },
+        "directly": {
+            "title": "Přímo na vašem telefonu",
+            "description": "Kupte si e-známku na svém mobilu ještě na cestě."
+        },
+        "payments": {
+            "title": "Bezpečné online platby",
+            "description": "Naše Flex-známka vám umožňuje později upravit datum zahájení, pokud je to nutné."
+        }
+    },
+    "FinesPayment": {
+        "title": "Placení pokut",
+        "description": "Rychlá a snadná platba pokut! Zaplaťte své pokuty během minuty přes naše webové stránky – jednoduše a pohodlně.",
+        "button": "Zaplatit nyní"
     }
 }
