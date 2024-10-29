@@ -2764,6 +2764,11 @@ queue-microtask@^1.2.2:
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
+react-accessible-accordion@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/react-accessible-accordion/-/react-accessible-accordion-5.0.0.tgz#5b61d06aec38906a99f977c10324d9bddec0f64c"
+  integrity sha512-MT2obYpTgLIIfPr9d7hEyvPB5rg8uJcHpgA83JSRlEUHvzH48+8HJPvzSs+nM+XprTugDgLfhozO5qyJpBvYRQ==
+
 react-dom@^18:
   version "18.3.1"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-18.3.1.tgz#c2265d79511b57d479b3dd3fdfa51536494c5cb4"
@@ -2771,6 +2776,11 @@ react-dom@^18:
   dependencies:
     loose-envify "^1.1.0"
     scheduler "^0.23.2"
+
+react-hook-form@^7.53.1:
+  version "7.53.1"
+  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.53.1.tgz#3f2cd1ed2b3af99416a4ac674da2d526625add67"
+  integrity sha512-6aiQeBda4zjcuaugWvim9WsGqisoUk+etmFEsSUMm451/Ic8L/UAb7sRtMj3V+Hdzm6mMjU1VhiSzYUZeBm0Vg==
 
 react-is@^16.13.1, react-is@^16.7.0:
   version "16.13.1"

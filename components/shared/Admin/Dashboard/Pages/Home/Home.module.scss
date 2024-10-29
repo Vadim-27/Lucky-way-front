@@ -1,0 +1,41 @@
+.headWrapper {
+    @apply mb-10 flex items-center justify-between;
+}
+
+.title {
+    @apply text-[2.5rem] font-medium text-[#3f4b97];
+}
+
+.button {
+    @apply rounded-md bg-[#3f4b97] px-[74px] py-2 text-xl font-medium text-white;
+}
+
+.accordionItemHeading {
+    @apply mb-8;
+}
+
+.accordionItemButton {
+    @apply flex items-center gap-3 bg-[#f5f5f5] py-3 pl-14 text-3xl font-medium text-[#3f4b97];
+
+    &[aria-expanded='true'] .chevronIcon {
+        @apply rotate-90;
+    }
+}
+
+.chevronIcon {
+    @apply h-8 w-8 fill-none stroke-[#3f4b97] transition-transform duration-150 ease-linear;
+}
+
+.accordionItemPanel {
+    @apply animate-[fadein_0.35s_ease-in]
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

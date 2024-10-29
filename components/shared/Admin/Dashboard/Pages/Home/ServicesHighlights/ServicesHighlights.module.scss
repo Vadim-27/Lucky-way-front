@@ -1,0 +1,11 @@
+.servicesHighlights {
+    @apply mb-10;
+}
+
+.servicesHighlightsList {
+    @apply flex items-center gap-6;
+}
+
+.servicesHighlightsItem {
+    @apply flex flex-col gap-4 rounded-2xl border border-[#3f4b97] p-3 text-center;
+}
