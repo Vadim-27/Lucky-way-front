@@ -1,0 +1,11 @@
+.label {
+    @apply mb-2 inline-block text-xl font-semibold uppercase leading-normal text-[#3f4b97];
+}
+
+.input {
+    @apply h-14 w-full rounded-md border border-[#3f4b97] px-4 py-2 text-xl font-normal outline-0;
+
+    &:focus {
+        @apply border-[#0a4b46];
+    }
+}

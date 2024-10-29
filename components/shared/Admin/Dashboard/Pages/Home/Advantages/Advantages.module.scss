@@ -1,0 +1,11 @@
+.advantages {
+    @apply mb-10;
+}
+
+.advantagesList {
+    @apply flex items-start gap-5;
+}
+
+.advantagesItem {
+    @apply flex basis-[calc((100%-60px)/4)] flex-col gap-4 rounded-2xl border border-[#3f4b97] p-3 text-center;
+}

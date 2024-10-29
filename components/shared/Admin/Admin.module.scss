@@ -1,0 +1,7 @@
+.header  {
+    @apply py-6 bg-[#030146]
+}
+
+.main {
+    @apply h-[calc(100dvh-83px)] flex;
+}
