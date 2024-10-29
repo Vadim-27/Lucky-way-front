@@ -22,6 +22,7 @@
     "react-modern-drawer": "^1.4.0",
     "react-select": "^5.8.1",
     "react-slick": "^0.30.2",
+    "sharp": "^0.33.5",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
