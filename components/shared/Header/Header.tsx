@@ -1,6 +1,7 @@
+import Logo from '@/components/ui/Logo';
+
 import Burger from './Burger';
 import LangSwitcher from './LangSwitcher';
-import Logo from './Logo';
 import Navigation from './Navigation';
 
 import scss from './Header.module.scss';

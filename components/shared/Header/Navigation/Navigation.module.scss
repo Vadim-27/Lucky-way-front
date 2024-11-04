@@ -3,8 +3,16 @@
 .list {
     @apply flex flex-col gap-4;
 
-    @include media-rules(desktop) {
+    @include media-rules(laptop) {
         @apply flex-row;
+    }
+}
+
+.footerList {
+    @apply mb-5 flex-row flex-wrap justify-center;
+
+    @include media-rules(tablet) {
+        @apply gap-16;
     }
 }
 

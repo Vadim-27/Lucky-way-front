@@ -1,0 +1,87 @@
+@import '@/styles/mixins';
+
+.wrapper {
+    @apply relative;
+
+    @include media-rules(tablet) {
+        @apply flex;
+    }
+}
+
+.defaultItem {
+    @apply relative mb-4 overflow-hidden rounded-2xl;
+
+    @include media-rules(tablet) {
+        @apply w-[308px];
+    }
+}
+
+.defaultIcon {
+    @apply mx-auto h-[200px] w-[107px] rounded-2xl;
+
+    @include media-rules(tablet) {
+        @apply h-[468px] w-[268px];
+    }
+}
+
+.title {
+    @apply absolute left-[50px] top-[66px] text-base uppercase leading-[1.17] text-black;
+
+    @include media-rules(tablet) {
+        @apply left-1 top-[134px] text-2xl;
+    }
+
+    &.lowEmission {
+        @apply left-[86px] top-[92px] w-[114px];
+
+        @include media-rules(tablet) {
+            @apply left-0 top-[110px];
+        }
+    }
+}
+
+.countriesList {
+    @include media-rules(tablet) {
+        @apply flex-1;
+    }
+}
+
+.slider {
+    @apply h-[468px];
+}
+
+.item {
+    @apply relative ml-4 min-w-0 flex-[0_0_288px] overflow-hidden rounded-2xl;
+
+    @include media-rules(tablet) {
+        @apply ml-8 flex-[0_0_316px];
+    }
+}
+
+.link {
+    @apply relative;
+
+    &:hover .imageWrapper {
+        @apply scale-105;
+    }
+}
+
+.imageWrapper {
+    @apply transition-transform duration-500 delay-300 ease-linear;
+    
+    &::before {
+        @apply absolute bottom-0 left-0 right-0 top-0 bg-[#000]/25 content-[''];
+    }
+}
+
+.image {
+    @apply h-full w-full;
+}
+
+.name {
+    @apply absolute bottom-0 left-0 w-full bg-black-blur-10% p-4 text-[1.75rem] font-medium leading-[2.25rem] text-white backdrop-blur;
+}
+
+.contour {
+    @apply absolute left-4 top-4;
+}

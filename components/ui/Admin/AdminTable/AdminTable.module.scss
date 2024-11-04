@@ -1,0 +1,23 @@
+.headWrapper {
+    @apply mb-12;
+}
+
+.title {
+    @apply text-[2.5rem] font-semibold uppercase leading-normal tracking-[0.03em] text-[#020048];
+}
+
+.table {
+    @apply w-full border border-[#a1a1a1];
+}
+
+.column {
+    @apply text-left py-2 font-light text-xl text-[#3f4b97];
+
+    &:first-child {
+        @apply pl-4;
+    }
+}
+
+.row {
+    @apply border-b border-[#a1a1a1];
+}
