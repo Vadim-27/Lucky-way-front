@@ -1,9 +1,5 @@
-.headWrapper {
-    @apply mb-10 flex items-center justify-between;
-}
-
 .title {
-    @apply text-[2.5rem] font-medium text-[#3f4b97];
+    @apply text-[2.5rem] font-medium text-[#3f4b97] mb-10;
 }
 
 .button {

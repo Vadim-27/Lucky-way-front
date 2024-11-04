@@ -1,52 +1,107 @@
-import { FieldValues, Path, UseFormRegister } from 'react-hook-form';
+import { Path } from 'react-hook-form';
 
+import AdminButton from '@/components/ui/Admin/AdminButton';
 import AdminInput from '@/components/ui/Admin/AdminInput';
 import AdminTextarea from '@/components/ui/Admin/AdminTextarea';
 import PrevText from '@/components/ui/Admin/PrevText';
+import Form from '@/components/ui/Form';
 
 import scss from './Hero.module.scss';
 
-export interface IRegister<T extends FieldValues> {
-    register: UseFormRegister<T>;
+interface IHeroData {
+    title?: string;
+    description?: string;
+    buttonPrimary?: string;
+    buttonSecondary?: string;
 }
 
-const Hero = <T extends FieldValues>({ register }: IRegister<T>) => {
+const Hero = () => {
+    const handleTitleSubmit = async (data: IHeroData) => {
+        console.log(data);
+    };
+
+    const handleDescriptionSubmit = async (data: IHeroData) => {
+        console.log(data);
+    };
+
+    const handlePrimaryButtonSubmit = async (data: IHeroData) => {
+        console.log(data);
+    };
+
+    const handleSecondaryButtonSubmit = async (data: IHeroData) => {
+        console.log(data);
+    };
+
     return (
         <section className={scss.hero}>
-            <div className={scss.titleWrapper}>
-                <AdminInput<T> register={register} name={'hero.title' as Path<T>} label="Title" />
-                <PrevText>Start Your Easy Way with Company Name</PrevText>
-            </div>
+            <Form onSubmit={handleTitleSubmit}>
+                {(register, isSubmitting) => (
+                    <div>
+                        <div className={scss.titleWrapper}>
+                            <AdminInput<IHeroData>
+                                register={register}
+                                name={'title' as Path<IHeroData>}
+                                label="Title"
+                            />
+                            <PrevText>Start Your Easy Way with Company Name</PrevText>
+                        </div>
 
-            <div className={scss.descriptionWrapper}>
-                <AdminTextarea<T>
-                    register={register}
-                    name={'hero.description' as Path<T>}
-                    label="description"
-                />
-                <PrevText>
-                    Purchase vignettes for toll roads, explore green zones in cities, and pay fines
-                    effortlessly. Travel smart, drive smoothly.
-                </PrevText>
-            </div>
+                        <AdminButton loading={isSubmitting} />
+                    </div>
+                )}
+            </Form>
+
+            <Form onSubmit={handleDescriptionSubmit}>
+                {(register, isSubmitting) => (
+                    <div>
+                        <div className={scss.descriptionWrapper}>
+                            <AdminTextarea<IHeroData>
+                                register={register}
+                                name={'description' as Path<IHeroData>}
+                                label="description"
+                            />
+                            <PrevText>
+                                Purchase vignettes for toll roads, explore green zones in cities,
+                                and pay fines effortlessly. Travel smart, drive smoothly.
+                            </PrevText>
+                        </div>
+                        <AdminButton loading={isSubmitting} />
+                    </div>
+                )}
+            </Form>
 
             <div className={scss.buttonsWrapper}>
-                <div className={scss.button}>
-                    <AdminInput<T>
-                        register={register}
-                        name={'hero.buttonPrimary' as Path<T>}
-                        label="Primary Button"
-                    />
-                    <PrevText>Get Started</PrevText>
-                </div>
-                <div className={scss.button}>
-                    <AdminInput<T>
-                        register={register}
-                        name={'hero.buttonSecondary' as Path<T>}
-                        label="Secondary Button"
-                    />
-                    <PrevText>Learn More</PrevText>
-                </div>
+                <Form onSubmit={handlePrimaryButtonSubmit} className={scss.button}>
+                    {(register, isSubmitting) => (
+                        <div>
+                            <div className={scss.wrapper}>
+                                <AdminInput<IHeroData>
+                                    register={register}
+                                    name={'buttonPrimary' as Path<IHeroData>}
+                                    label="Primary Button"
+                                />
+                                <PrevText>Get Started</PrevText>
+                            </div>
+                            <AdminButton loading={isSubmitting} />
+                        </div>
+                    )}
+                </Form>
+
+                <Form onSubmit={handleSecondaryButtonSubmit} className={scss.button}>
+                    {(register, isSubmitting) => (
+                        <div>
+                            <div className={scss.wrapper}>
+                                <AdminInput<IHeroData>
+                                    register={register}
+                                    name={'buttonSecondary' as Path<IHeroData>}
+                                    label="Secondary Button"
+                                />
+                                <PrevText>Learn More</PrevText>
+                            </div>
+                            <AdminButton loading={isSubmitting} />
+                        </div>
+                    )}
+                </Form>
             </div>
         </section>
     );
