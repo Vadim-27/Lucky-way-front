@@ -11,10 +11,6 @@
         @apply items-center;
     }
 
-    @include media-rules(laptop) {
-        @apply pl-[112px];
-    }
-
     & .title {
         @apply max-w-[174px];
 
@@ -42,8 +38,4 @@
 
 .description {
     @apply text-xl leading-normal text-black;
-
-    @include media-rules(laptop) {
-        @apply pr-[120px];
-    }
 }

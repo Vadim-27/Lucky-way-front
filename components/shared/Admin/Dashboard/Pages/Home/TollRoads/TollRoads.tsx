@@ -1,36 +1,64 @@
-import { FieldValues, Path } from 'react-hook-form';
+import { Path } from 'react-hook-form';
 
+import AdminButton from '@/components/ui/Admin/AdminButton';
 import AdminInput from '@/components/ui/Admin/AdminInput';
 import AdminTextarea from '@/components/ui/Admin/AdminTextarea';
 import PrevText from '@/components/ui/Admin/PrevText';
-
-import { IRegister } from '../Hero';
+import Form from '@/components/ui/Form';
 
 import scss from './TollRoads.module.scss';
 
-const TollRoads = <T extends FieldValues>({ register }: IRegister<T>) => {
+export interface ITollRoads {
+    title: string;
+    description: string;
+}
+
+const TollRoads = () => {
+    const handleTitleSubmit = (data: ITollRoads) => {
+        console.log(data);
+    };
+
+    const handleDescriptionSubmit = (data: ITollRoads) => {
+        console.log(data);
+    };
+
     return (
         <section className={scss.tollRoads}>
-            <div className={scss.titleWrapper}>
-                <AdminInput<T>
-                    register={register}
-                    name={'tollRoads.title' as Path<T>}
-                    label="Title"
-                />
-                <PrevText>Toll roads</PrevText>
-            </div>
+            <Form onSubmit={handleTitleSubmit}>
+                {(register, isSubmitting) => (
+                    <div className={scss.titleWrapper}>
+                        <div>
+                            <AdminInput<ITollRoads>
+                                register={register}
+                                name={'title' as Path<ITollRoads>}
+                                label="Title"
+                            />
+                            <PrevText>Toll roads</PrevText>
+                        </div>
+                        <AdminButton loading={isSubmitting} />
+                    </div>
+                )}
+            </Form>
 
-            <div className={scss.descriptionWrapper}>
-                <AdminTextarea<T>
-                    register={register}
-                    name={'tollRoads.description' as Path<T>}
-                    label="description"
-                />
-                <PrevText>
-                    Need to pay a toll? We&apos;ve gathered all the information you need to make
-                    paying your toll simple and stress-free, just like driving on our roads.
-                </PrevText>
-            </div>
+            <Form onSubmit={handleDescriptionSubmit}>
+                {(register, isSubmitting) => (
+                    <div className={scss.descriptionWrapper}>
+                        <div>
+                            <AdminTextarea<ITollRoads>
+                                register={register}
+                                name={'description' as Path<ITollRoads>}
+                                label="description"
+                            />
+                            <PrevText>
+                                Need to pay a toll? We&apos;ve gathered all the information you need
+                                to make paying your toll simple and stress-free, just like driving
+                                on our roads.
+                            </PrevText>
+                        </div>
+                        <AdminButton loading={isSubmitting} />
+                    </div>
+                )}
+            </Form>
         </section>
     );
 };

@@ -1,14 +1,16 @@
-import { FieldValues, Path } from 'react-hook-form';
+import { Path } from 'react-hook-form';
 
+import AdminButton from '@/components/ui/Admin/AdminButton';
 import AdminInput from '@/components/ui/Admin/AdminInput';
 import AdminTextarea from '@/components/ui/Admin/AdminTextarea';
 import PrevText from '@/components/ui/Admin/PrevText';
+import Form from '@/components/ui/Form';
 
-import { IRegister } from '../Hero';
+import { ITollRoads } from '../TollRoads';
 
 import scss from './Advantages.module.scss';
 
-const Advantages = <T extends FieldValues>({ register }: IRegister<T>) => {
+const Advantages = () => {
     const advantagesData = [
         {
             id: 1,
@@ -31,28 +33,51 @@ const Advantages = <T extends FieldValues>({ register }: IRegister<T>) => {
             description: 'Our Flex Vignette lets you adjust the start date later if needed.',
         },
     ];
+
+    const handleTitleSubmit = (data: ITollRoads, id: number) => {
+        console.log(data, id);
+    };
+
+    const handleDescriptionSubmit = (data: ITollRoads, id: number) => {
+        console.log(data, id);
+    };
+
     return (
         <section className={scss.advantages}>
             <ul className={scss.advantagesList}>
                 {advantagesData.map(({ id, title, description }) => (
                     <li key={title} className={scss.advantagesItem}>
-                        <div>
-                            <AdminInput<T>
-                                register={register}
-                                name={`advantages[${id}].title` as Path<T>}
-                                label="Title"
-                            />
-                            <PrevText>{title}</PrevText>
-                        </div>
+                        <Form onSubmit={(data: ITollRoads) => handleTitleSubmit(data, id)}>
+                            {(register, isSubmitting) => (
+                                <div>
+                                    <div>
+                                        <AdminInput<ITollRoads>
+                                            register={register}
+                                            name={'title' as Path<ITollRoads>}
+                                            label="Title"
+                                        />
+                                        <PrevText>{title}</PrevText>
+                                    </div>
+                                    <AdminButton loading={isSubmitting} />
+                                </div>
+                            )}
+                        </Form>
 
-                        <div>
-                            <AdminTextarea<T>
-                                register={register}
-                                name={`advantages[${id}].description` as Path<T>}
-                                label="Description"
-                            />
-                            <PrevText>{description}</PrevText>
-                        </div>
+                        <Form onSubmit={(data: ITollRoads) => handleDescriptionSubmit(data, id)}>
+                            {(register, isSubmitting) => (
+                                <div>
+                                    <div>
+                                        <AdminTextarea<ITollRoads>
+                                            register={register}
+                                            name={'description' as Path<ITollRoads>}
+                                            label="Description"
+                                        />
+                                        <PrevText>{description}</PrevText>
+                                    </div>
+                                    <AdminButton loading={isSubmitting} />
+                                </div>
+                            )}
+                        </Form>
                     </li>
                 ))}
             </ul>
