@@ -15,7 +15,7 @@ const options: IOption[] = [
         value: 'en',
         label: (
             <div className={scss.option}>
-                <Icon variant="uk" className={scss.icon} />
+                <Icon variant="en" className={scss.icon} />
                 <span className={clsx(dmSans.className, scss.lang)}>Eng</span>
             </div>
         ),
@@ -24,7 +24,7 @@ const options: IOption[] = [
         value: 'de',
         label: (
             <div className={scss.option}>
-                <Icon variant="deu" className={scss.icon} />
+                <Icon variant="de" className={scss.icon} />
                 <span className={clsx(dmSans.className, scss.lang)}>deu</span>
             </div>
         ),
@@ -33,7 +33,7 @@ const options: IOption[] = [
         value: 'cz',
         label: (
             <div className={scss.option}>
-                <Icon variant="cze" className={scss.icon} />
+                <Icon variant="cz" className={scss.icon} />
                 <span className={clsx(dmSans.className, scss.lang)}>cze</span>
             </div>
         ),
