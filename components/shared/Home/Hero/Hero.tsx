@@ -1,33 +1,24 @@
-import { useTranslations } from 'next-intl';
+import HeroCustom from '@/components/ui/HeroCustom';
+import getCurrentLanguage from '@/helpers/getCurrentLanguage';
+import { getHeroText } from '@/services/translation/home';
 
-import Container from '@/components/ui/Container';
+const Hero = async () => {
+    const hero = await getHeroText();
 
-import ButtonsGroup from './ButtonsGroup';
+    const language = await getCurrentLanguage();
 
-import scss from './Hero.module.scss';
+    const translation = hero.translations.find((t) => t.languageId === language.id);
 
-const Hero = () => {
-    const t = useTranslations('Hero');
-
-    // const locale = await getUserLocale();
-    // const text = await getHeroText(locale as Locale);
+    const title = translation?.title;
+    const description = translation?.description;
 
     return (
-        <section className={scss.hero} id="hero">
-            <Container>
-                <div className={scss.wrapper}>
-                    <h1 className={scss.title}>{t('title')}</h1>
-                    <p className={scss.description}>{t('description')}</p>
-
-                    <ButtonsGroup />
-
-                    {/* <div className={scss.buttonGroup}>
-                        <Button>{t('cta')}</Button>
-                        <Button variant="secondary">{t('secondary')}</Button>
-                    </div> */}
-                </div>
-            </Container>
-        </section>
+        <HeroCustom
+            title={title}
+            description={description}
+            bgImage="linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+            url('/images/hero/hero-bg@2x.jpg')"
+        />
     );
 };
 

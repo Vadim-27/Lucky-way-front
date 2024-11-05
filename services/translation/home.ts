@@ -1,14 +1,10 @@
-import { Locale } from '@/i18n/config';
+import { ISection } from '@/types/sections.types';
 
 import instance from '../axios.config';
 import ENDPOINTS from '../endpoints';
 
-export const getHeroText = async (locale: Locale) => {
-    const response = await instance.get(ENDPOINTS.translation.home.hero, {
-        params: {
-            lang: locale,
-        },
-    });
+export const getHeroText = async () => {
+    const response = await instance.get<ISection>(ENDPOINTS.translation.home.hero);
 
     return response.data;
 };

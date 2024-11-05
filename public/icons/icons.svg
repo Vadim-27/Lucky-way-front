@@ -44,7 +44,7 @@
             <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4"
                 stroke-width="2.56" d="M7.736 8.244l15.36 15.36"></path>
         </symbol>
-        <symbol id="icon-uk" viewBox="0 0 32 32">
+        <symbol id="icon-en" viewBox="0 0 32 32">
             <path fill="#eee" style="fill: var(--color1, #eee)"
                 d="M0 0l0.5 1.375-0.5 1.438v1.438l2 3.375-2 3.375v2l2 3-2 3v2l2 3.375-2 3.375v4.25l1.375-0.5 1.438 0.5h1.438l3.375-2 3.375 2h2l3-2 3 2h2l3.375-2 3.375 2h4.25l-0.5-1.375 0.5-1.438v-1.437l-2-3.375 2-3.375v-2l-2-3 2-3v-2l-2-3.375 2-3.375v-4.25l-1.375 0.5-1.438-0.5h-1.437l-3.375 2-3.375-2h-2l-3 2-3-2h-2l-3.375 2-3.375-2h-4.25z"></path>
             <path fill="#0052b4" style="fill: var(--color2, #0052b4)"
@@ -52,7 +52,7 @@
             <path fill="#d80027" style="fill: var(--color3, #d80027)"
                 d="M0 0v2.813l8.188 8.188h2.813l-11-11zM13 0v13h-13v6h13v13h6v-13h13v-6h-13v-13h-6zM29.187 0l-8.187 8.188v2.813l11-11h-2.813zM11 21l-11 11h2.813l8.188-8.187v-2.813zM21 21l11 11v-2.813l-8.187-8.187h-2.813z"></path>
         </symbol>
-        <symbol id="icon-cze" viewBox="0 0 32 32">
+        <symbol id="icon-cz" viewBox="0 0 32 32">
             <path fill="#f7fcff" style="fill: var(--color1, #f7fcff)"
                 d="M5.4 5.4v10.6h25.6c0-8.3-6.7-15-15-15-4.15 0-7.9 1.7-10.6 4.4z"></path>
             <path fill="#e31d1c" style="fill: var(--color2, #e31d1c)"
@@ -60,7 +60,7 @@
             <path fill="#3d58db" style="fill: var(--color3, #3d58db)"
                 d="M5.4 5.4c-2.7 2.7-4.4 6.45-4.4 10.6s1.7 7.9 4.4 10.6l10.6-10.6-10.6-10.6z"></path>
         </symbol>
-        <symbol id="icon-deu" viewBox="0 0 32 32">
+        <symbol id="icon-de" viewBox="0 0 32 32">
             <path fill="#272727" style="fill: var(--color4, #272727)"
                 d="M15.95 1c-6.55 0-12.1 4.2-14.15 10h28.3c-2.050-5.8-7.6-10-14.15-10z"></path>
             <path fill="#ffd01f" style="fill: var(--color5, #ffd01f)" opacity="0.992157"
