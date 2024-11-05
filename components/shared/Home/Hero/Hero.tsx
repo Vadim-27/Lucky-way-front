@@ -1,10 +1,6 @@
-import Container from '@/components/ui/Container';
+import HeroCustom from '@/components/ui/HeroCustom';
 import getCurrentLanguage from '@/helpers/getCurrentLanguage';
 import { getHeroText } from '@/services/translation/home';
-
-import ButtonsGroup from './ButtonsGroup';
-
-import scss from './Hero.module.scss';
 
 const Hero = async () => {
     const hero = await getHeroText();
@@ -17,16 +13,12 @@ const Hero = async () => {
     const description = translation?.description;
 
     return (
-        <section className={scss.hero} id="hero">
-            <Container>
-                <div className={scss.wrapper}>
-                    <h1 className={scss.title}>{title}</h1>
-                    <p className={scss.description}>{description}</p>
-
-                    <ButtonsGroup />
-                </div>
-            </Container>
-        </section>
+        <HeroCustom
+            title={title}
+            description={description}
+            bgImage="linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+            url('/images/hero/hero-bg@2x.jpg')"
+        />
     );
 };
 

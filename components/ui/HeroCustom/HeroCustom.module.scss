@@ -1,15 +1,8 @@
 @import '@/styles/mixins';
 
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-        url('/images/hero/hero-bg.jpg');
 
     @apply bg-cover bg-center bg-no-repeat py-[106px];
-
-    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-            url('/images/hero/hero-bg@2x.jpg');
-    }
 
     @include media-rules(tablet) {
         @apply pb-[111px] pt-[167px];
@@ -35,13 +28,5 @@
 
     @include media-rules(tablet) {
         @apply text-2xl;
-    }
-}
-
-.buttonGroup {
-    @apply flex flex-col gap-6;
-
-    @include media-rules(tablet) {
-        @apply flex-row gap-[2.625rem];
     }
 }
