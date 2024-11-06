@@ -7,6 +7,10 @@ const Hero = async () => {
 
     const language = await getCurrentLanguage();
 
+    if (!hero) {
+        return null;
+    }
+
     const translation = hero.translations.find((t) => t.languageId === language.id);
 
     const title = translation?.title;
