@@ -1,0 +1,9 @@
+@import '@/styles/mixins';
+
+.countries {
+    @apply py-[3.75rem];
+
+    @include media-rules(tablet) {
+        @apply py-20;
+    }
+}

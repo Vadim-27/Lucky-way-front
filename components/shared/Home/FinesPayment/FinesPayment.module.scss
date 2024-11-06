@@ -1,10 +1,10 @@
 @import '@/styles/mixins';
 
 .finesPayment {
-    @apply bg-[linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('/images/fines/fines.jpg')] bg-cover bg-[60%] py-[7rem];
+    @apply bg-[linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('/images/home/fines/fines.jpg')] bg-cover bg-[60%] py-[7rem];
 
     @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-        @apply bg-[linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('/images/fines/fines@2x.jpg')];
+        @apply bg-[linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('/images/home/fines/fines@2x.jpg')];
     }
 
     @include media-rules(tablet) {
