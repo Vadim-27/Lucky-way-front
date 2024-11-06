@@ -21,7 +21,7 @@ const Hero = async () => {
             title={title}
             description={description}
             bgImage="linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-            url('/images/home/hero/hero-bg@2x.jpg')"
+            url('/images/toll-roads/hero/hero-bg.jpg')"
         />
     );
 };

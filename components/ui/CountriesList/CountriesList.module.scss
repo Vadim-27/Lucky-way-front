@@ -1,0 +1,49 @@
+@import '@/styles/mixins';
+
+.countriesList {
+    @apply flex flex-col gap-6;
+
+    @include media-rules(tablet) {
+        @apply flex-row flex-wrap gap-x-[2.625rem] gap-y-6;
+    }
+
+    @include media-rules(laptop) {
+        @apply gap-6;
+    }
+}
+
+.item {
+    @apply overflow-hidden rounded-2xl;
+
+    @include media-rules(tablet) {
+        @apply basis-[calc((100%-42px)/2)];
+    }
+
+    @include media-rules(laptop) {
+        @apply basis-[calc((100%-48px)/3)];
+    }
+}
+
+.link {
+    @apply relative;
+
+    &:hover .imageWrapper {
+        @apply scale-105;
+    }
+}
+
+.imageWrapper {
+    @apply transition-transform duration-500 delay-300 ease-linear;
+    
+    // &::before {
+    //     @apply absolute bottom-0 left-0 right-0 top-0 bg-[#000]/25 content-[''];
+    // }
+}
+
+.image {
+    @apply h-[260px] w-full object-cover;
+}
+
+.name {
+    @apply absolute bottom-0 left-0 w-full p-4 text-[1.75rem] font-medium text-white backdrop-blur;
+}

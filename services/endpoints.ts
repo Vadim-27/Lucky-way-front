@@ -6,7 +6,7 @@ const ENDPOINTS = {
     languages: '/languages',
     translation: {
         home: {
-            hero: '/sections/2',
+            hero: '/sections/6',
         },
     },
 };

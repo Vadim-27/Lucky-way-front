@@ -69,9 +69,9 @@
 .imageWrapper {
     @apply transition-transform duration-500 delay-300 ease-linear;
     
-    &::before {
-        @apply absolute bottom-0 left-0 right-0 top-0 bg-[#000]/25 content-[''];
-    }
+    // &::before {
+    //     @apply absolute bottom-0 left-0 right-0 top-0 bg-[#000]/25 content-[''];
+    // }
 }
 
 .image {

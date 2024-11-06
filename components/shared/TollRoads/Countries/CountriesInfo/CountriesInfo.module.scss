@@ -1,0 +1,21 @@
+@import '@/styles/mixins';
+
+.countriesInfo {
+    @apply mb-6;
+}
+
+.title {
+    @apply mb-6 text-[1.75rem] font-semibold uppercase leading-normal tracking-[0.04em] text-black;
+
+    @include media-rules(tablet) {
+        @apply mb-12 text-[2.5rem] tracking-[0.03em];
+    }
+}
+
+.description {
+    @apply text-black;
+
+    @include media-rules(tablet) {
+        @apply text-xl leading-normal;
+    }
+}

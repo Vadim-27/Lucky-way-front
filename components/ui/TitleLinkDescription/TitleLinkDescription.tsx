@@ -11,7 +11,7 @@ import scss from './TitleLinkDescription.module.scss';
 interface ITitleLinkDescription {
     title: string;
     description: string;
-    link: string;
+    link?: string;
     isLongTitle?: boolean;
     className?: string;
 }
@@ -27,10 +27,12 @@ const TitleLinkDescription: FC<ITitleLinkDescription> = ({
         <section className={clsx(scss.wrapper, className)}>
             <div className={scss.headWrapper}>
                 <Title className={clsx(scss.title, isLongTitle && scss.longTitle)}>{title}</Title>
-                <Link href={link} className={clsx(dmSans.className, scss.link)}>
-                    View All
-                    <Icon variant="chevron-right" className={scss.chevronIcon} />
-                </Link>
+                {link && (
+                    <Link href={link} className={clsx(dmSans.className, scss.link)}>
+                        View All
+                        <Icon variant="chevron-right" className={scss.chevronIcon} />
+                    </Link>
+                )}
             </div>
 
             <p className={scss.description}>{description}</p>
