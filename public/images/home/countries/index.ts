@@ -20,6 +20,7 @@ export { default as hungary_2 } from './hungary-2.jpg';
 export { default as italy_1 } from './italy-1.jpg';
 export { default as italy_1_horizontal } from './italy-1-hor.jpg';
 export { default as italy_2 } from './italy-2.jpg';
+export { default as italy_bg } from './italy-bg.jpg';
 export { default as poland_1 } from './poland-1.jpg';
 export { default as poland_1_horizontal } from './poland-1-hor.jpg';
 export { default as poland_2 } from './poland-2.jpg';
