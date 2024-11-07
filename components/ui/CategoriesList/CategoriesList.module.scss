@@ -1,0 +1,49 @@
+@import '@/styles/mixins';
+
+.serviceHighlights {
+    @apply bg-bg-light-grey py-[7.5rem];
+
+    @include media-rules(tablet) {
+        @apply py-[3.75rem];
+    }
+}
+
+.serviceHighlightsList {
+    @apply flex flex-col gap-6;
+
+    @include media-rules(laptop) {
+        @apply flex-row;
+    }
+}
+
+.serviceHighlightsItem {
+    @apply rounded-2xl bg-white p-8 text-center;
+
+    @include media-rules(laptop) {
+        @apply basis-[calc((100%-48px)/3)];
+    }
+}
+
+.iconWrapper {
+    @apply mx-auto mb-6 flex h-[100px] w-[100px] items-center justify-center rounded-full border border-button;
+}
+
+.icon {
+    @apply h-[52px] w-[52px] fill-none stroke-black;
+}
+
+.iconFill {
+    @apply fill-black stroke-none;
+}
+
+.title {
+    @apply mb-4 text-[1.625rem] font-semibold leading-normal tracking-[0.04em] text-black;
+
+    @include media-rules(tablet) {
+        @apply text-[2rem] tracking-[0.03em];
+    }
+}
+
+.description {
+    @apply text-xl leading-normal text-black;
+}

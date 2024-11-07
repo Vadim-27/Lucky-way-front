@@ -21,7 +21,10 @@ export type IconVariant =
     | 'facebook'
     | 'instagram'
     | 'twitter'
-    | 'linkedin';
+    | 'linkedin'
+    | 'class-a'
+    | 'class-b'
+    | 'other-vehicles';
 
 interface IIcon extends SVGProps<SVGSVGElement> {
     variant: IconVariant;
