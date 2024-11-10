@@ -1,0 +1,70 @@
+.wrapperSection {
+    @apply pb-16 pt-20;
+}
+.titleSection {
+    @apply mb-12 text-4xl font-semibold uppercase text-black;
+}
+.descriptionSection {
+    @apply mb-6 text-xl font-normal text-black;
+}
+.accordionList {
+    @apply flex flex-col gap-6;
+}
+
+// .itemAccordion {
+//     @apply py-6;
+// }
+
+.accordionHeader {
+    @apply relative z-10 flex cursor-pointer content-center items-center justify-between rounded-[24px] border-[1px] border-[#FED5B0] bg-[#FFF9EC] p-6;
+}
+.accordionTitle {
+    @apply text-2xl font-semibold text-black;
+}
+.accordionBtn {
+    @apply h-12 w-12 rounded-[24px] border-[1px] border-[#FB7500];
+}
+.active {
+    @apply bg-[#FB7500];
+}
+
+.accordionInfoWrapper {
+    // @apply max-h-0 overflow-hidden transition-[max-height,padding] duration-500 ease-linear;
+    white-space: pre-line;
+    // font-size: 1rem;
+    // color: #333;
+    max-height: 0;
+    overflow: hidden;
+    transition:
+        max-height 0.6s ease,
+        padding 0.6s ease;
+
+    padding: 0 24px;
+}
+.accordionInfoOpen {
+    // @apply duration-500 delay-300 ease-linear bg-orange-5% rounded-[24px] border-[1px] border-[#FED5B0] p-6 max-h-full whitespace-pre-line;
+    max-height: 500px;
+
+    padding-top: 48px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+
+    background-color: rgba(255, 249, 236, 0.28);
+    border-left: 1px solid #fed5b0;
+    border-right: 1px solid #fed5b0;
+    border-bottom: 1px solid #fed5b0;
+
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-top: -24px;
+
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    transition:
+        max-height 0.6s ease,
+        padding 0.6s ease;
+}
+.accordionInfoText {
+    @apply text-xl font-normal text-black;
+}

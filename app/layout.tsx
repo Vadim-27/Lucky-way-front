@@ -1,10 +1,8 @@
 import { FC, ReactNode } from 'react';
-import type { Metadata } from 'next';
+import { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
 import { getLocale, getMessages } from 'next-intl/server';
 
-import Footer from '@/components/shared/Footer';
-import Header from '@/components/shared/Header';
 import { poppins } from '@/constants/fonts';
 
 import 'slick-carousel/slick/slick.css';
@@ -19,24 +17,19 @@ export const metadata: Metadata = {
     },
 };
 
-interface IRootLayout {
+export interface IRootLayout {
     children: ReactNode;
 }
 
 const RootLayout: FC<IRootLayout> = async ({ children }) => {
     const locale = await getLocale();
 
-    // Providing all messages to the client
-    // side is the easiest way to get started
     const messages = await getMessages();
+
     return (
         <html lang={locale}>
             <body className={poppins.className}>
-                <NextIntlClientProvider messages={messages}>
-                    <Header />
-                    {children}
-                    <Footer />
-                </NextIntlClientProvider>
+                <NextIntlClientProvider messages={messages}>{children}</NextIntlClientProvider>
             </body>
         </html>
     );

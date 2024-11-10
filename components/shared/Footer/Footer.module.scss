@@ -1,0 +1,25 @@
+@import '@/styles/mixins';
+
+.footer {
+    @apply bg-bg-footer py-12;
+}
+
+.logoWrapper {
+    @apply mb-8 text-center;
+}
+
+.line {
+    @apply mx-auto mb-8 h-[2px] w-[240px] bg-button;
+
+    @include media-rules(tablet) {
+        @apply w-[384px];
+    }
+}
+
+.text {
+    @apply mb-10 text-center leading-normal text-white;
+}
+
+.copyright {
+    @apply text-center leading-normal text-white;
+}

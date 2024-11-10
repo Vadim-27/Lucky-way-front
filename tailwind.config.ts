@@ -24,10 +24,12 @@ const config: Config = {
                 'orange-800': '#a1430b',
                 'orange-900': '#82390c',
                 'orange-950': '#461a04',
+                'orange-5%': 'rgba(255, 249, 236, 0.28)',
             },
             screens: {
                 mobile: '360px',
                 tablet: '834px',
+                laptop: '1440px',
                 desktop: '1920px',
             },
             fontSize: {

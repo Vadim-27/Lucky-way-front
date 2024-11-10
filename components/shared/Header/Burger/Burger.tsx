@@ -6,8 +6,8 @@ import clsx from 'clsx';
 
 import Icon from '@/components/ui/Icon';
 
+import Logo from '../../../ui/Logo';
 import LangSwitcher from '../LangSwitcher';
-import Logo from '../Logo';
 import Navigation from '../Navigation';
 
 import 'react-modern-drawer/dist/index.css';

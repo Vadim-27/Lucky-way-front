@@ -1,7 +1,7 @@
 import Container from '@/components/ui/Container';
-
-import TollRoadsInfo from './TollRoadsInfo';
-import TollRoadsList from './TollRoadsList';
+import CountriesSlider from '@/components/ui/CountriesSlider';
+import TitleLinkDescription from '@/components/ui/TitleLinkDescription';
+import countries from '@/data/countries';
 
 import scss from './TollRoads.module.scss';
 
@@ -9,8 +9,14 @@ const TollRoads = () => {
     return (
         <section id="about" className={scss.tollRoads}>
             <Container>
-                <TollRoadsInfo />
-                <TollRoadsList />
+                <TitleLinkDescription
+                    title="Toll roads"
+                    description="Need to pay a toll? We've gathered all the information you need to make paying
+                your toll simple and stress-free, just like driving on our roads."
+                    link="#"
+                />
+
+                <CountriesSlider countries={countries} title="Toll roads" />
             </Container>
         </section>
     );

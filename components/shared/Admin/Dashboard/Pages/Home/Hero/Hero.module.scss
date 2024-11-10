@@ -1,0 +1,20 @@
+.hero {
+    @apply mb-10;
+}
+
+.titleWrapper,
+.descriptionWrapper {
+    @apply mb-8;
+}
+
+.buttonsWrapper {
+    @apply flex items-center gap-16;
+}
+
+.button {
+    @apply w-1/4;
+}
+
+.wrapper {
+    @apply mb-8
+}

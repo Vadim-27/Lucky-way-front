@@ -1,14 +1,18 @@
 @import '@/styles/mixins';
 
 .header {
-    @apply mx-auto p-4 absolute w-full;
+    @apply mx-auto p-4 fixed w-full backdrop-blur-[14px] bg-black-45% z-50 transition-colors duration-150 ease-linear;
 
     @include media-rules(tablet) {
-        @apply bg-[#5a5a5a] p-8 static;
+        @apply p-8;
+    }
+
+    @include media-rules(laptop) {
+        @apply px-[5rem] py-6;
     }
 
     @include media-rules(desktop) {
-        @apply bg-transparent px-[20rem] py-6 absolute;
+        @apply px-[20rem];
     }
 }
 
@@ -17,7 +21,7 @@
 }
 
 .burger {
-    @include media-rules(desktop) {
+    @include media-rules(laptop) {
         @apply hidden;
     }
 }
@@ -25,7 +29,7 @@
 .navigation {
     @apply hidden;
 
-    @include media-rules(desktop) {
+    @include media-rules(laptop) {
         @apply block;
     }
 }
@@ -33,13 +37,13 @@
 .langSwitcherWrapper {
     @apply relative hidden;
 
-    @include media-rules(desktop) {
+    @include media-rules(laptop) {
         @apply block;
     }
 
     & .langSwitcher {
     
-        @include media-rules(desktop) {
+        @include media-rules(laptop) {
             @apply absolute right-0 -top-7 block w-[132px];
         }
     }

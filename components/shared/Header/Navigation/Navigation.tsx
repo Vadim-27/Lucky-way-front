@@ -11,10 +11,11 @@ import scss from './Navigation.module.scss';
 
 interface INavigation {
     onClose?: () => void;
+    footer?: boolean;
     className?: string;
 }
 
-const Navigation: FC<INavigation> = ({ onClose, className }) => {
+const Navigation: FC<INavigation> = ({ onClose, footer, className }) => {
     const t = useTranslations('Navigation');
     const pathname = usePathname();
 
@@ -26,11 +27,11 @@ const Navigation: FC<INavigation> = ({ onClose, className }) => {
     ];
     return (
         <nav className={className}>
-            <ul className={scss.list}>
+            <ul className={clsx(scss.list, footer && scss.footerList)}>
                 {navItems.map(({ label, href }) => {
                     const isActive = pathname === href;
                     return (
-                        <li key={label}>
+                        <li key={label} className={scss.item}>
                             <Link
                                 href={pathname === '/' ? `#${label.toLowerCase()}` : href}
                                 onClick={onClose}

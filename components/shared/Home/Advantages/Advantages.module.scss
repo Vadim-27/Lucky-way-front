@@ -1,0 +1,57 @@
+@import '@/styles/mixins';
+
+.advantages {
+    @apply bg-bg-light-grey py-[3.75rem];
+}
+
+.advantagesList {
+    @apply flex flex-col gap-6 ;
+
+    @include media-rules(tablet) {
+        @apply flex-row flex-wrap gap-x-1 gap-y-8 items-start;
+    }
+}
+
+.advantagesItem {
+    @apply text-center;
+
+    &:not(:last-child) {
+        &::after {
+            @apply mx-auto mt-6 block h-[1px] w-[200px] bg-[#fed5b0] content-[''];
+        }
+    }
+
+    @include media-rules(tablet) {
+        @apply flex basis-[calc((100%-4px)/2)] items-center;
+
+        &:not(:last-child) {
+            &::after {
+                @apply ml-1 mt-0 h-[200px] w-[1px];
+            }
+        }
+    }
+
+    @include media-rules(laptop) {
+        @apply basis-[calc((100%-12px)/4)];
+    }
+}
+
+.iconWrapper {
+    @apply mx-auto mb-9 flex h-[4.5rem] w-[4.5rem] items-center justify-center rounded-full border border-button bg-white;
+}
+
+.iconStroke {
+    @apply h-8 w-8 fill-none stroke-[#000];
+}
+
+.iconFill {
+    @apply fill-[#000] stroke-none;
+}
+
+.title {
+    @apply mb-6 text-2xl font-semibold capitalize leading-normal text-[#292929];
+}
+
+.description {
+    @apply px-4 text-xl leading-normal text-[#232323];
+}
