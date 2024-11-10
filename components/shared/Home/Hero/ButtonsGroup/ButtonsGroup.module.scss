@@ -1,9 +1,0 @@
-@import '@/styles/mixins';
-
-.buttonGroup {
-    @apply flex flex-col gap-6;
-
-    @include media-rules(tablet) {
-        @apply flex-row gap-[2.625rem];
-    }
-}

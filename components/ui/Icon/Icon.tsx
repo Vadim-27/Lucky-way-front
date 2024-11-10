@@ -7,9 +7,9 @@ export type IconVariant =
     | 'logo'
     | 'burger'
     | 'close'
-    | 'uk'
-    | 'cze'
-    | 'deu'
+    | 'en'
+    | 'cz'
+    | 'de'
     | 'arrow'
     | 'chevron-right'
     | 'road'
@@ -23,7 +23,10 @@ export type IconVariant =
     | 'twitter'
     | 'linkedin'
     | 'plus'
-    | 'x';
+    | 'x'
+    | 'class-a'
+    | 'class-b'
+    | 'other-vehicles';
 
 interface IIcon extends SVGProps<SVGSVGElement> {
     variant: IconVariant;

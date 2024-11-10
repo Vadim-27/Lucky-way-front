@@ -1,0 +1,10 @@
+export { default as bus } from './bus.png';
+export { default as car_1 } from './car-1.png';
+export { default as car_2 } from './car-2.png';
+export { default as car_3 } from './car-3.png';
+export { default as moto } from './moto.png';
+export { default as truck_1 } from './truck-1.png';
+export { default as truck_2 } from './truck-2.png';
+export { default as truck_3 } from './truck-3.png';
+export { default as truck_4 } from './truck-4.png';
+export { default as truck_5 } from './truck-5.png';

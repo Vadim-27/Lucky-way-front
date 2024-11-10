@@ -1,0 +1,49 @@
+@import '@/styles/mixins';
+
+.vehicleClass {
+    @apply text-2xl font-semibold capitalize leading-normal text-black;
+}
+
+.vehicleTypesList {
+    @apply mt-6 flex flex-col gap-6;
+}
+
+.vehicleTypesItem {
+    @apply flex flex-col gap-6;
+
+    @include media-rules(tablet) {
+        @apply flex-row;
+    }
+}
+
+.vehicleInfo {
+    @apply flex h-[6.75rem] flex-col items-center justify-center gap-4 rounded-2xl border border-button bg-orange-50;
+
+    @include media-rules(tablet) {
+        @apply h-[19.25rem] w-[14.875rem];
+    }
+
+    @include media-rules(laptop) {
+        @apply h-[8.875rem];
+    }
+}
+
+.vehicleLabel {
+    @apply leading-normal text-black;
+}
+
+.vehicleImages {
+    @apply flex flex-1 flex-col gap-6;
+
+    @include media-rules(laptop) {
+        @apply flex-row;
+    }
+}
+
+.vehicleImageItem {
+    @apply flex h-[8.875rem] items-center justify-center rounded-2xl shadow-[0_4px_15px_0_rgba(0,0,0,0.04)];
+
+    @include media-rules(laptop) {
+        @apply flex-1
+    }
+}

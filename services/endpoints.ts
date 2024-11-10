@@ -3,9 +3,10 @@ const ENDPOINTS = {
         signup: '/auth/signup',
         signin: '/auth/signin',
     },
+    languages: '/languages',
     translation: {
         home: {
-            hero: '/translation/hero',
+            hero: '/sections/6',
         },
     },
 };

@@ -1,0 +1,32 @@
+@import '@/styles/mixins';
+
+.hero {
+
+    @apply bg-cover bg-center bg-no-repeat py-[106px];
+
+    @include media-rules(tablet) {
+        @apply pb-[111px] pt-[167px];
+    }
+}
+
+.wrapper {
+    @include media-rules(tablet) {
+        @apply max-w-[700px];
+    }
+}
+
+.title {
+    @apply mb-12 text-[2.125rem] font-semibold leading-normal text-white;
+
+    @include media-rules(tablet) {
+        @apply text-5xl;
+    }
+}
+
+.description {
+    @apply mb-[3.25rem] text-lg leading-normal text-[#d9d9d9];
+
+    @include media-rules(tablet) {
+        @apply text-2xl;
+    }
+}
