@@ -16,14 +16,13 @@
 }
 
 .accordionHeader {
-    @apply relative z-10 flex cursor-pointer content-center items-center justify-between rounded-[24px] border-[1px] border-[#FED5B0] bg-[#FFF9EC] p-6 ;
-
+    @apply relative z-10 flex cursor-pointer content-center items-center justify-between rounded-[24px] border-[1px] border-[#FED5B0] bg-[#FFF9EC] p-6;
 }
 .accordionTitle {
-    @apply text-2xl font-semibold text-black;
+    @apply text-2xl font-semibold text-black flex-1 pr-4;
 }
 .accordionBtn {
-    @apply h-12 w-12 rounded-[24px] border-[1px] border-[#FB7500] flex items-center justify-center;
+    @apply flex h-12 w-12 items-center justify-center rounded-[24px] border-[1px] border-[#FB7500];
 }
 
 .accordionBtnIcon {
@@ -45,7 +44,6 @@
         padding 0.6s ease;
 
     padding: 0 24px;
-     
 }
 .accordionInfoOpen {
     // @apply duration-500 delay-300 ease-linear bg-orange-5% rounded-[24px] border-[1px] border-[#FED5B0] p-6 max-h-full whitespace-pre-line;
