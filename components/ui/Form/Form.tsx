@@ -1,22 +1,36 @@
 import { ReactNode } from 'react';
-import { FieldValues, useForm, UseFormRegister } from 'react-hook-form';
+import { FieldErrors, FieldValues, useForm, UseFormRegister } from 'react-hook-form';
+import { yupResolver } from '@hookform/resolvers/yup';
+import { AnyObjectSchema } from 'yup';
 
 interface IForm<T extends FieldValues> {
     onSubmit: (data: T) => void;
-    children: (register: UseFormRegister<T>, isSubmitting: boolean) => ReactNode;
+    children: (
+        register: UseFormRegister<T>,
+        isSubmitting: boolean,
+        errors: FieldErrors<T>
+    ) => ReactNode;
+    validationSchema: AnyObjectSchema;
     className?: string;
 }
 
-const Form = <T extends FieldValues>({ onSubmit, className, children }: IForm<T>) => {
+const Form = <T extends FieldValues>({
+    onSubmit,
+    validationSchema,
+    className,
+    children,
+}: IForm<T>) => {
     const {
         register,
         handleSubmit,
-        formState: { isSubmitting },
-    } = useForm<T>();
+        formState: { isSubmitting, errors },
+    } = useForm<T>({
+        resolver: yupResolver(validationSchema),
+    });
 
     return (
         <form onSubmit={handleSubmit(onSubmit)} className={className}>
-            {children(register, isSubmitting)}
+            {children(register, isSubmitting, errors)}
         </form>
     );
 };

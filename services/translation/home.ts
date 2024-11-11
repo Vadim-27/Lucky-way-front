@@ -16,3 +16,15 @@ export const getHomeHeroText = async () => {
         }
     }
 };
+
+export const updateHomeHeroText = async (body: ISection) => {
+    try {
+        const response = await instance.patch(ENDPOINTS.translation.home.hero, body);
+
+        return response.data;
+    } catch (error) {
+        if (isAxiosError(error)) {
+            console.log(error.response?.data.message);
+        }
+    }
+};
