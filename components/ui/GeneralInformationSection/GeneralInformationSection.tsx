@@ -46,8 +46,10 @@ const GeneralInformationSection: React.FC<GeneralInformationSectionProps> = ({ s
                                     <button
                                         className={`${css.accordionBtn} ${openItems[id] ? css.active : ''}`}
                                     >
-                                        <Icon variant={openItems[id] ? 'plus' : 'x'} />
-                                        {/* <Icon variant= 'plus' /> */}
+                                        <Icon
+                                            variant={openItems[id] ? 'x' : 'plus'}
+                                            className={css.accordionBtnIcon}
+                                        />
                                     </button>
                                 </div>
                                 <div

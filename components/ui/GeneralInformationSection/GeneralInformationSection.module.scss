@@ -23,7 +23,11 @@
     @apply text-2xl font-semibold text-black;
 }
 .accordionBtn {
-    @apply h-12 w-12 rounded-[24px] border-[1px] border-[#FB7500];
+    @apply h-12 w-12 rounded-[24px] border-[1px] border-[#FB7500] flex items-center justify-center;
+}
+
+.accordionBtnIcon {
+    @apply h-6 w-6 fill-none stroke-black;
 }
 .active {
     @apply bg-[#FB7500];
