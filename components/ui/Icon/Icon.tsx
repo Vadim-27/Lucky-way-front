@@ -22,6 +22,8 @@ export type IconVariant =
     | 'instagram'
     | 'twitter'
     | 'linkedin'
+    | 'plus'
+    | 'x'
     | 'class-a'
     | 'class-b'
     | 'other-vehicles';
