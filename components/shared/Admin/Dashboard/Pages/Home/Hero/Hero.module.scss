@@ -16,5 +16,13 @@
 }
 
 .wrapper {
-    @apply mb-8
+    @apply mb-8;
+}
+
+.languageSelect {
+    @apply flex items-center justify-between;
+}
+
+.select {
+    @apply border border-black outline-none
 }

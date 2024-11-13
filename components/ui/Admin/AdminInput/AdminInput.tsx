@@ -1,11 +1,12 @@
 import { InputHTMLAttributes } from 'react';
-import { FieldValues, Path, UseFormRegister } from 'react-hook-form';
+import { FieldErrors, FieldValues, Path, UseFormRegister } from 'react-hook-form';
 import clsx from 'clsx';
 
 import scss from './AdminInput.module.scss';
 
 export interface IAdminControl<T extends FieldValues> {
     register: UseFormRegister<T>;
+    errors: FieldErrors<T>;
     name: Path<T>;
     label: string;
     className?: string;
@@ -19,9 +20,12 @@ const AdminInput = <T extends FieldValues>({
     register,
     name,
     label,
+    errors,
     className,
     ...props
 }: IAdminInput<T>) => {
+    const hasError = errors && errors[name];
+
     return (
         <div>
             <label htmlFor={name} className={scss.label}>
@@ -31,7 +35,7 @@ const AdminInput = <T extends FieldValues>({
             <input
                 id={name}
                 autoComplete="off"
-                className={clsx(scss.input, className)}
+                className={clsx(scss.input, hasError && scss.error, className)}
                 {...register(name)}
                 {...props}
             />
