@@ -1,0 +1,51 @@
+{
+    "Navigation": {
+        "about": "Over ons",
+        "features": "Functies",
+        "pricing": "Prijzen",
+        "blog": "Blog"
+    },
+    "Hero": {
+        "title": "Begin eenvoudig met Bedrijfsnaam",
+        "description": "Koop vignetten voor tolwegen, verken milieuzones in steden en betaal boetes moeiteloos. Reis slim, rijd soepel.",
+        "cta": "Aan de slag",
+        "secondary": "Meer informatie"
+    },
+    "ServiceHighlights": {
+        "tollRoads": {
+            "title": "Tolwegen",
+            "description": "Koop vignetten voor tolwegen, verken milieuzones in steden en betaal boetes moeiteloos. Reis slim, rijd soepel."
+        },
+        "lowEmissionZone": {
+            "title": "Lage emissiezone",
+            "description": "Koop vignetten voor tolwegen, verken milieuzones in steden en betaal boetes moeiteloos. Reis slim, rijd soepel."
+        },
+        "paymentOfFines": {
+            "title": "Boete betalen",
+            "description": "Koop vignetten voor tolwegen, verken milieuzones in steden en betaal boetes moeiteloos. Reis slim, rijd soepel."
+        }
+    },
+    "Advantages": {
+        "fast": {
+            "title": "Snel en handig",
+            "description": "Vermijd het gedoe van stoppen bij rustplaatsen en wachten in de rij."
+        },
+        "use": {
+            "title": "Direct gebruik",
+            "description": "E-vignetten zijn direct actief en kunnen kort van tevoren worden aangeschaft."
+        },
+        "directly": {
+            "title": "Direct op uw telefoon",
+            "description": "Koop de e-vignet op uw mobiele telefoon, zelfs onderweg."
+        },
+        "payments": {
+            "title": "Veilige online betalingen",
+            "description": "Met onze flexibele vignet kunt u de startdatum later aanpassen indien nodig."
+        }
+    },
+    "FinesPayment": {
+        "title": "Boete betalen",
+        "description": "Betaal uw boetes snel en eenvoudig via onze website – simpel en handig.",
+        "button": "Betaal nu"
+    }
+}

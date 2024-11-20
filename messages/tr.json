@@ -1,0 +1,51 @@
+{
+    "Navigation": {
+        "about": "Hakkımızda",
+        "features": "Özellikler",
+        "pricing": "Fiyatlandırma",
+        "blog": "Blog"
+    },
+    "Hero": {
+        "title": "Şirket Adıyla Kolay Yoldan Başlayın",
+        "description": "Ücretli yollar için vinyet satın alın, şehirlerdeki yeşil alanları keşfedin ve cezaları zahmetsizce ödeyin. Akıllı seyahat edin, rahat sürün.",
+        "cta": "Başlayın",
+        "secondary": "Daha Fazla Bilgi"
+    },
+    "ServiceHighlights": {
+        "tollRoads": {
+            "title": "Ücretli Yollar",
+            "description": "Ücretli yollar için vinyet satın alın, şehirlerdeki yeşil alanları keşfedin ve cezaları zahmetsizce ödeyin. Akıllı seyahat edin, rahat sürün."
+        },
+        "lowEmissionZone": {
+            "title": "Düşük Emisyon Alanı",
+            "description": "Ücretli yollar için vinyet satın alın, şehirlerdeki yeşil alanları keşfedin ve cezaları zahmetsizce ödeyin. Akıllı seyahat edin, rahat sürün."
+        },
+        "paymentOfFines": {
+            "title": "Ceza Ödemeleri",
+            "description": "Ücretli yollar için vinyet satın alın, şehirlerdeki yeşil alanları keşfedin ve cezaları zahmetsizce ödeyin. Akıllı seyahat edin, rahat sürün."
+        }
+    },
+    "Advantages": {
+        "fast": {
+            "title": "Hızlı ve Kolay",
+            "description": "Dinlenme alanlarında durmayı ve sırada beklemeyi önleyin."
+        },
+        "use": {
+            "title": "Anında Kullanım",
+            "description": "E-vinyetler hemen aktif hale gelir ve satın alım sonrası kullanılabilir."
+        },
+        "directly": {
+            "title": "Doğrudan Telefonunuzda",
+            "description": "E-vinyeti telefonunuzda satın alın, hatta yoldayken bile."
+        },
+        "payments": {
+            "title": "Güvenli Online Ödeme",
+            "description": "Flex Vinyetimiz başlangıç tarihini daha sonra değiştirmenize olanak tanır."
+        }
+    },
+    "FinesPayment": {
+        "title": "Ceza Ödemeleri",
+        "description": "Cezalarınızı hızlı ve kolay bir şekilde web sitemizden ödeyin – basit ve pratik.",
+        "button": "Hemen Ödeyin"
+    }
+}

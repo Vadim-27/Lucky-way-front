@@ -1,0 +1,51 @@
+{
+    "Navigation": {
+        "about": "Despre noi",
+        "features": "Funcții",
+        "pricing": "Prețuri",
+        "blog": "Blog"
+    },
+    "Hero": {
+        "title": "Începeți simplu cu Numele Companiei",
+        "description": "Achiziționați vignete pentru drumuri cu taxă, explorați zonele verzi din orașe și plătiți amenzi cu ușurință. Călătoriți inteligent, conduceți confortabil.",
+        "cta": "Începeți acum",
+        "secondary": "Aflați mai multe"
+    },
+    "ServiceHighlights": {
+        "tollRoads": {
+            "title": "Drumuri cu taxă",
+            "description": "Achiziționați vignete pentru drumuri cu taxă, explorați zonele verzi din orașe și plătiți amenzi cu ușurință. Călătoriți inteligent, conduceți confortabil."
+        },
+        "lowEmissionZone": {
+            "title": "Zona cu emisii reduse",
+            "description": "Achiziționați vignete pentru drumuri cu taxă, explorați zonele verzi din orașe și plătiți amenzi cu ușurință. Călătoriți inteligent, conduceți confortabil."
+        },
+        "paymentOfFines": {
+            "title": "Plata amenzilor",
+            "description": "Achiziționați vignete pentru drumuri cu taxă, explorați zonele verzi din orașe și plătiți amenzi cu ușurință. Călătoriți inteligent, conduceți confortabil."
+        }
+    },
+    "Advantages": {
+        "fast": {
+            "title": "Rapid și convenabil",
+            "description": "Evitați opririle la zonele de odihnă și așteptarea la cozi."
+        },
+        "use": {
+            "title": "Utilizare imediată",
+            "description": "Vignetele electronice sunt active imediat după achiziție."
+        },
+        "directly": {
+            "title": "Direct pe telefonul dvs.",
+            "description": "Achiziționați vignetă electronică direct de pe telefon, chiar și în timpul drumului."
+        },
+        "payments": {
+            "title": "Plăți online sigure",
+            "description": "Vigneta Flex vă permite să schimbați data de începere mai târziu, dacă este necesar."
+        }
+    },
+    "FinesPayment": {
+        "title": "Plata amenzilor",
+        "description": "Plătiți rapid și simplu amenzile prin site-ul nostru – simplu și convenabil.",
+        "button": "Plătiți acum"
+    }
+}

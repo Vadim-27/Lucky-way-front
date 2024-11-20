@@ -1,0 +1,51 @@
+{
+    "Navigation": {
+        "about": "Rólunk",
+        "features": "Funkciók",
+        "pricing": "Árak",
+        "blog": "Blog"
+    },
+    "Hero": {
+        "title": "Kezdje egyszerűen a Cég Nevével",
+        "description": "Vásároljon matricákat díjköteles utakra, fedezze fel a városok zöld zónáit, és fizesse be a bírságokat egyszerűen. Utazzon okosan, vezessen kényelmesen.",
+        "cta": "Kezdjen bele",
+        "secondary": "Tudjon meg többet"
+    },
+    "ServiceHighlights": {
+        "tollRoads": {
+            "title": "Díjköteles utak",
+            "description": "Vásároljon matricákat díjköteles utakra, fedezze fel a városok zöld zónáit, és fizesse be a bírságokat egyszerűen. Utazzon okosan, vezessen kényelmesen."
+        },
+        "lowEmissionZone": {
+            "title": "Alacsony kibocsátási zóna",
+            "description": "Vásároljon matricákat díjköteles utakra, fedezze fel a városok zöld zónáit, és fizesse be a bírságokat egyszerűen. Utazzon okosan, vezessen kényelmesen."
+        },
+        "paymentOfFines": {
+            "title": "Bírságok befizetése",
+            "description": "Vásároljon matricákat díjköteles utakra, fedezze fel a városok zöld zónáit, és fizesse be a bírságokat egyszerűen. Utazzon okosan, vezessen kényelmesen."
+        }
+    },
+    "Advantages": {
+        "fast": {
+            "title": "Gyors és kényelmes",
+            "description": "Kerülje el a pihenőhelyekre való megállást és a sorban állást."
+        },
+        "use": {
+            "title": "Azonnal használható",
+            "description": "Az e-matricák azonnal aktívak a vásárlás után."
+        },
+        "directly": {
+            "title": "Közvetlenül a telefonján",
+            "description": "Vásároljon e-matricát mobiltelefonján, akár útközben is."
+        },
+        "payments": {
+            "title": "Biztonságos online fizetés",
+            "description": "Flex matricánkkal később is módosíthatja az érvényességi kezdő dátumot."
+        }
+    },
+    "FinesPayment": {
+        "title": "Bírságok befizetése",
+        "description": "Fizesse be bírságait gyorsan és egyszerűen weboldalunkon – egyszerű és kényelmes.",
+        "button": "Fizessen most"
+    }
+}

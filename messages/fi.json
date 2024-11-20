@@ -1,0 +1,51 @@
+{
+    "Navigation": {
+        "about": "Tietoa meistä",
+        "features": "Ominaisuudet",
+        "pricing": "Hinnat",
+        "blog": "Blogi"
+    },
+    "Hero": {
+        "title": "Aloita helposti Yrityksen nimellä",
+        "description": "Osta tiemaksuja maksullisille teille, tutki vihreitä alueita kaupungeissa ja maksa sakot helposti. Matkusta älykkäästi, aja sujuvasti.",
+        "cta": "Aloita",
+        "secondary": "Lue lisää"
+    },
+    "ServiceHighlights": {
+        "tollRoads": {
+            "title": "Maksulliset tiet",
+            "description": "Osta tiemaksuja maksullisille teille, tutki vihreitä alueita kaupungeissa ja maksa sakot helposti. Matkusta älykkäästi, aja sujuvasti."
+        },
+        "lowEmissionZone": {
+            "title": "Alhaisten päästöjen alue",
+            "description": "Osta tiemaksuja maksullisille teille, tutki vihreitä alueita kaupungeissa ja maksa sakot helposti. Matkusta älykkäästi, aja sujuvasti."
+        },
+        "paymentOfFines": {
+            "title": "Sakkojen maksu",
+            "description": "Osta tiemaksuja maksullisille teille, tutki vihreitä alueita kaupungeissa ja maksa sakot helposti. Matkusta älykkäästi, aja sujuvasti."
+        }
+    },
+    "Advantages": {
+        "fast": {
+            "title": "Nopea ja kätevä",
+            "description": "Vältä vaivannäköä pysähtymällä taukopaikoilla ja jonottamalla."
+        },
+        "use": {
+            "title": "Välitön käyttö",
+            "description": "E-vignetit aktivoituvat heti ja ne voidaan ostaa juuri ennen matkaa."
+        },
+        "directly": {
+            "title": "Suoraan puhelimessasi",
+            "description": "Osta e-vignetti puhelimellasi matkan aikana."
+        },
+        "payments": {
+            "title": "Turvalliset verkkomaksut",
+            "description": "Joustava vignetimme antaa sinun muuttaa aloituspäivämäärää myöhemmin, jos se on tarpeen."
+        }
+    },
+    "FinesPayment": {
+        "title": "Sakkojen maksu",
+        "description": "Maksa sakot nopeasti ja helposti verkkosivustollamme – yksinkertaista ja kätevää.",
+        "button": "Maksa nyt"
+    }
+}

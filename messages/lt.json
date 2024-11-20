@@ -1,0 +1,51 @@
+{
+    "Navigation": {
+        "about": "Apie mus",
+        "features": "Funkcijos",
+        "pricing": "Kainos",
+        "blog": "Tinklaraštis"
+    },
+    "Hero": {
+        "title": "Pradėkite lengvai su Įmonės pavadinimu",
+        "description": "Įsigykite vinjetes mokamiems keliams, tyrinėkite žaliąsias zonas miestuose ir lengvai mokėkite baudas. Keliaukite protingai, vairuokite patogiai.",
+        "cta": "Pradėti",
+        "secondary": "Sužinoti daugiau"
+    },
+    "ServiceHighlights": {
+        "tollRoads": {
+            "title": "Mokami keliai",
+            "description": "Įsigykite vinjetes mokamiems keliams, tyrinėkite žaliąsias zonas miestuose ir lengvai mokėkite baudas. Keliaukite protingai, vairuokite patogiai."
+        },
+        "lowEmissionZone": {
+            "title": "Mažos emisijos zona",
+            "description": "Įsigykite vinjetes mokamiems keliams, tyrinėkite žaliąsias zonas miestuose ir lengvai mokėkite baudas. Keliaukite protingai, vairuokite patogiai."
+        },
+        "paymentOfFines": {
+            "title": "Baudų apmokėjimas",
+            "description": "Įsigykite vinjetes mokamiems keliams, tyrinėkite žaliąsias zonas miestuose ir lengvai mokėkite baudas. Keliaukite protingai, vairuokite patogiai."
+        }
+    },
+    "Advantages": {
+        "fast": {
+            "title": "Greita ir patogu",
+            "description": "Venkite sustojimų poilsio aikštelėse ir laukimo eilėse."
+        },
+        "use": {
+            "title": "Iš karto naudojama",
+            "description": "E-vinjetės aktyvios iš karto po įsigijimo."
+        },
+        "directly": {
+            "title": "Tiesiogiai jūsų telefone",
+            "description": "Įsigykite e-vinjetę savo telefone, net ir būdami kelyje."
+        },
+        "payments": {
+            "title": "Saugūs internetiniai mokėjimai",
+            "description": "Su Flex Vinjete galėsite vėliau pakeisti pradžios datą, jei reikės."
+        }
+    },
+    "FinesPayment": {
+        "title": "Baudų apmokėjimas",
+        "description": "Greitai ir lengvai sumokėkite baudas per mūsų svetainę – paprasta ir patogu.",
+        "button": "Mokėti dabar"
+    }
+}

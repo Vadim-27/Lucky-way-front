@@ -1,0 +1,51 @@
+{
+    "Navigation": {
+        "about": "À propos",
+        "features": "Fonctionnalités",
+        "pricing": "Tarifs",
+        "blog": "Blog"
+    },
+    "Hero": {
+        "title": "Commencez facilement avec le Nom de l'Entreprise",
+        "description": "Achetez des vignettes pour les routes à péage, explorez les zones vertes en ville et payez vos amendes sans effort. Voyagez intelligemment, conduisez en douceur.",
+        "cta": "Commencer",
+        "secondary": "En savoir plus"
+    },
+    "ServiceHighlights": {
+        "tollRoads": {
+            "title": "Routes à péage",
+            "description": "Achetez des vignettes pour les routes à péage, explorez les zones vertes en ville et payez vos amendes sans effort. Voyagez intelligemment, conduisez en douceur."
+        },
+        "lowEmissionZone": {
+            "title": "Zone à faibles émissions",
+            "description": "Achetez des vignettes pour les routes à péage, explorez les zones vertes en ville et payez vos amendes sans effort. Voyagez intelligemment, conduisez en douceur."
+        },
+        "paymentOfFines": {
+            "title": "Paiement des amendes",
+            "description": "Achetez des vignettes pour les routes à péage, explorez les zones vertes en ville et payez vos amendes sans effort. Voyagez intelligemment, conduisez en douceur."
+        }
+    },
+    "Advantages": {
+        "fast": {
+            "title": "Rapide et pratique",
+            "description": "Évitez les arrêts dans les aires de repos et les files d'attente."
+        },
+        "use": {
+            "title": "Utilisation immédiate",
+            "description": "Les e-vignettes sont actives immédiatement après achat."
+        },
+        "directly": {
+            "title": "Directement sur votre téléphone",
+            "description": "Achetez la e-vignette sur votre téléphone, même en déplacement."
+        },
+        "payments": {
+            "title": "Paiements en ligne sécurisés",
+            "description": "Notre vignette flexible vous permet de modifier la date de début plus tard si nécessaire."
+        }
+    },
+    "FinesPayment": {
+        "title": "Paiement des amendes",
+        "description": "Payez vos amendes rapidement et facilement sur notre site Web – simple et pratique.",
+        "button": "Payer maintenant"
+    }
+}

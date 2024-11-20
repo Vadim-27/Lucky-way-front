@@ -1,0 +1,24 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Pl-Poland--Streamline-Flagpack">
+<g clip-path="url(#clip0_1395_1032)">
+<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M0 0V24H24V0H0Z" fill="#F7FCFF"/>
+<g id="Mask group">
+<mask id="mask0_1395_1032" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+<g id="Group">
+<path id="Vector_2" fill-rule="evenodd" clip-rule="evenodd" d="M0 0V24H24V0H0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_1395_1032)">
+<g id="Group_2">
+<path id="Vector_3" fill-rule="evenodd" clip-rule="evenodd" d="M0 12V24H24V12H0Z" fill="#C51918"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1395_1032">
+<rect width="24" height="24" rx="12" fill="white"/>
+</clipPath>
+</defs>
+</svg>

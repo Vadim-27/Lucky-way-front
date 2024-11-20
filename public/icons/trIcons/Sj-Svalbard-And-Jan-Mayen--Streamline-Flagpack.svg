@@ -1,0 +1,24 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Sj-Svalbard-And-Jan-Mayen--Streamline-Flagpack">
+<g clip-path="url(#clip0_1398_1069)">
+<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M0.596313 0.240234V23.7602H23.4036V0.240234H0.596313Z" fill="#E31D1C"/>
+<g id="Mask group">
+<mask id="mask0_1398_1069" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-1" y="0" width="26" height="24">
+<g id="Group">
+<path id="Vector_2" fill-rule="evenodd" clip-rule="evenodd" d="M-1 0.240234V23.7602H25V0.240234H-1Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_1398_1069)">
+<g id="Group_2">
+<path id="Vector_3" d="M7.12484 -0.740234H6.31235V9.05975H-1.81262V14.9397H6.31235V24.7397H11.1874V14.9397H25.8124V9.05975H11.1874V-0.740234H7.12484Z" fill="#2E42A5" stroke="#F7FCFF" stroke-width="1.5"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1398_1069">
+<rect width="24" height="24" rx="12" fill="white"/>
+</clipPath>
+</defs>
+</svg>

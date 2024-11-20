@@ -1,0 +1,51 @@
+{
+    "Navigation": {
+        "about": "About",
+        "features": "Features",
+        "pricing": "Pricing",
+        "blog": "Blog"
+    },
+    "Hero": {
+        "title": "Start Your Easy Way with Company Name",
+        "description": "Purchase vignettes for toll roads, explore green zones in cities, and pay fines effortlessly. Travel smart, drive smoothly.",
+        "cta": "Get Started",
+        "secondary": "Learn More"
+    },
+    "ServiceHighlights": {
+        "tollRoads": {
+            "title": "Toll roads",
+            "description": "Purchase vignettes for toll roads, explore green zones in cities, and pay fines effortlessly. Travel smart, drive smoothly."
+        },
+        "lowEmissionZone": {
+            "title": "Low Emission Zone",
+            "description": "Purchase vignettes for toll roads, explore green zones in cities, and pay fines effortlessly. Travel smart, drive smoothly."
+        },
+        "paymentOfFines": {
+            "title": "Payment of Fines",
+            "description": "Purchase vignettes for toll roads, explore green zones in cities, and pay fines effortlessly. Travel smart, drive smoothly."
+        }
+    },
+    "Advantages": {
+        "fast": {
+            "title": "Fast and convenient",
+            "description": "Avoid the hassle of stopping at rest areas and waiting in line."
+        },
+        "use": {
+            "title": "Immediate use",
+            "description": "E-vignettes are active right away and can be purchased just before."
+        },
+        "directly": {
+            "title": "Directly on your phone",
+            "description": "Buy the e-vignette on your mobile while still on the road."
+        },
+        "payments": {
+            "title": "Safe online payments",
+            "description": "Our Flex Vignette lets you adjust the start date later if needed."
+        }
+    },
+    "FinesPayment": {
+        "title": "payment of fines",
+        "description": "Quick and easy fine payments! Pay your fines in just a minute through ours website – simple and convenient.",
+        "button": "Pay Now"
+    }
+}

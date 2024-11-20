@@ -1,0 +1,51 @@
+{
+    "Navigation": {
+        "about": "O nas",
+        "features": "Funkcije",
+        "pricing": "Cenik",
+        "blog": "Blog"
+    },
+    "Hero": {
+        "title": "Začnite enostavno s Imenom Podjetja",
+        "description": "Kupite vinjete za cestnino, raziščite zelene cone v mestih in enostavno plačajte kazni. Potujte pametno, vozite gladko.",
+        "cta": "Začni zdaj",
+        "secondary": "Preberi več"
+    },
+    "ServiceHighlights": {
+        "tollRoads": {
+            "title": "Cestnine",
+            "description": "Kupite vinjete za cestnino, raziščite zelene cone v mestih in enostavno plačajte kazni. Potujte pametno, vozite gladko."
+        },
+        "lowEmissionZone": {
+            "title": "Cona z nizkimi emisijami",
+            "description": "Kupite vinjete za cestnino, raziščite zelene cone v mestih in enostavno plačajte kazni. Potujte pametno, vozite gladko."
+        },
+        "paymentOfFines": {
+            "title": "Plačilo kazni",
+            "description": "Kupite vinjete za cestnino, raziščite zelene cone v mestih in enostavno plačajte kazni. Potujte pametno, vozite gladko."
+        }
+    },
+    "Advantages": {
+        "fast": {
+            "title": "Hitro in priročno",
+            "description": "Izognite se postankom na počivališčih in čakanju v vrstah."
+        },
+        "use": {
+            "title": "Takojšnja uporaba",
+            "description": "E-vinjete so aktivne takoj po nakupu."
+        },
+        "directly": {
+            "title": "Neposredno na vašem telefonu",
+            "description": "Kupite e-vinjeto na svojem mobilnem telefonu, tudi med vožnjo."
+        },
+        "payments": {
+            "title": "Varno spletno plačilo",
+            "description": "Naša Flex Vinjeta omogoča, da kasneje spremenite začetni datum."
+        }
+    },
+    "FinesPayment": {
+        "title": "Plačilo kazni",
+        "description": "Hitro in enostavno plačajte kazni prek naše spletne strani – preprosto in priročno.",
+        "button": "Plačaj zdaj"
+    }
+}

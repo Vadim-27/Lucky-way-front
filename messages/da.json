@@ -1,0 +1,51 @@
+{
+    "Navigation": {
+        "about": "Om os",
+        "features": "Funktioner",
+        "pricing": "Priser",
+        "blog": "Blog"
+    },
+    "Hero": {
+        "title": "Start nemt med Firmanavn",
+        "description": "Køb vignetter til betalingsveje, udforsk grønne zoner i byer og betal bøder nemt. Rejs smart, kør problemfrit.",
+        "cta": "Kom i gang",
+        "secondary": "Lær mere"
+    },
+    "ServiceHighlights": {
+        "tollRoads": {
+            "title": "Betalingsveje",
+            "description": "Køb vignetter til betalingsveje, udforsk grønne zoner i byer og betal bøder nemt. Rejs smart, kør problemfrit."
+        },
+        "lowEmissionZone": {
+            "title": "Lavemissionszone",
+            "description": "Køb vignetter til betalingsveje, udforsk grønne zoner i byer og betal bøder nemt. Rejs smart, kør problemfrit."
+        },
+        "paymentOfFines": {
+            "title": "Betaling af bøder",
+            "description": "Køb vignetter til betalingsveje, udforsk grønne zoner i byer og betal bøder nemt. Rejs smart, kør problemfrit."
+        }
+    },
+    "Advantages": {
+        "fast": {
+            "title": "Hurtigt og bekvemt",
+            "description": "Undgå besværet med at stoppe på rastepladser og stå i kø."
+        },
+        "use": {
+            "title": "Øjeblikkelig brug",
+            "description": "E-vignetter er aktive med det samme og kan købes lige før."
+        },
+        "directly": {
+            "title": "Direkte på din telefon",
+            "description": "Køb e-vignetten på din mobil, mens du er på farten."
+        },
+        "payments": {
+            "title": "Sikker online betaling",
+            "description": "Vores fleksible vignette giver dig mulighed for at ændre startdatoen senere, hvis det er nødvendigt."
+        }
+    },
+    "FinesPayment": {
+        "title": "Betaling af bøder",
+        "description": "Betal dine bøder hurtigt og nemt via vores hjemmeside – simpelt og bekvemt.",
+        "button": "Betal nu"
+    }
+}
