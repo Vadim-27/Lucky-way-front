@@ -1,0 +1,51 @@
+{
+    "Navigation": {
+        "about": "Om oss",
+        "features": "Funksjoner",
+        "pricing": "Priser",
+        "blog": "Blogg"
+    },
+    "Hero": {
+        "title": "Start enkelt med Firmanavn",
+        "description": "Kjøp vignetter for bomveier, utforsk grønne soner i byer og betal bøter uten problemer. Reis smart, kjør sømløst.",
+        "cta": "Kom i gang",
+        "secondary": "Lær mer"
+    },
+    "ServiceHighlights": {
+        "tollRoads": {
+            "title": "Bomveier",
+            "description": "Kjøp vignetter for bomveier, utforsk grønne soner i byer og betal bøter uten problemer. Reis smart, kjør sømløst."
+        },
+        "lowEmissionZone": {
+            "title": "Lavutslippssone",
+            "description": "Kjøp vignetter for bomveier, utforsk grønne soner i byer og betal bøter uten problemer. Reis smart, kjør sømløst."
+        },
+        "paymentOfFines": {
+            "title": "Betaling av bøter",
+            "description": "Kjøp vignetter for bomveier, utforsk grønne soner i byer og betal bøter uten problemer. Reis smart, kjør sømløst."
+        }
+    },
+    "Advantages": {
+        "fast": {
+            "title": "Raskt og praktisk",
+            "description": "Unngå bryet med å stoppe på rasteplasser og stå i kø."
+        },
+        "use": {
+            "title": "Umiddelbar bruk",
+            "description": "E-vignetter er aktive med en gang og kan kjøpes rett før avreise."
+        },
+        "directly": {
+            "title": "Direkte på telefonen din",
+            "description": "Kjøp e-vignett på mobilen, selv mens du er på veien."
+        },
+        "payments": {
+            "title": "Sikre onlinebetalinger",
+            "description": "Vår fleksible vignett lar deg endre startdatoen senere om nødvendig."
+        }
+    },
+    "FinesPayment": {
+        "title": "Betaling av bøter",
+        "description": "Betal bøtene dine raskt og enkelt via nettstedet vårt – enkelt og praktisk.",
+        "button": "Betal nå"
+    }
+}

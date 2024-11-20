@@ -1,0 +1,24 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Tr-Turkey--Streamline-Flagpack">
+<g clip-path="url(#clip0_1398_988)">
+<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M0 0V24H24V0H0Z" fill="#E31D1C"/>
+<g id="Mask group">
+<mask id="mask0_1398_988" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+<g id="Group">
+<path id="Vector_2" fill-rule="evenodd" clip-rule="evenodd" d="M0 0V24H24V0H0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_1398_988)">
+<g id="Group_2">
+<path id="Vector_3" fill-rule="evenodd" clip-rule="evenodd" d="M12.0187 15.5307C10.413 15.1123 9.15524 13.6924 9.16949 11.61C9.18374 9.66156 10.3005 8.01421 12.066 7.5689C13.8315 7.1228 15.3855 8.06889 15.3855 8.06889C14.898 6.8518 13.203 5.99763 11.8125 6C9.22574 6.00397 6.46799 8.22102 6.44399 11.61C6.41999 15.1242 9.39749 17.1257 12.0165 17.1209C14.1157 17.1178 15.1117 15.5996 15.318 14.9546C15.318 14.9546 13.6252 15.9482 12.0187 15.5307ZM15.6772 10.9452L14.0775 11.5656L15.8827 12.2391L15.852 14.2494L17.0415 12.7407L19.0065 12.8913L17.4495 11.4785L18.4717 9.96979L16.8067 10.5617L15.6172 9.16474L15.6772 10.946V10.9452Z" fill="#F7FCFF"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1398_988">
+<rect width="24" height="24" rx="12" fill="white"/>
+</clipPath>
+</defs>
+</svg>

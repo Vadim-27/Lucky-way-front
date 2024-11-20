@@ -1,0 +1,51 @@
+{
+    "Navigation": {
+        "about": "Chi siamo",
+        "features": "Caratteristiche",
+        "pricing": "Prezzi",
+        "blog": "Blog"
+    },
+    "Hero": {
+        "title": "Inizia facilmente con Nome Azienda",
+        "description": "Acquista le vignette per le strade a pedaggio, esplora le zone verdi nelle città e paga le multe senza fatica. Viaggia con intelligenza, guida senza intoppi.",
+        "cta": "Inizia ora",
+        "secondary": "Scopri di più"
+    },
+    "ServiceHighlights": {
+        "tollRoads": {
+            "title": "Strade a pedaggio",
+            "description": "Acquista le vignette per le strade a pedaggio, esplora le zone verdi nelle città e paga le multe senza fatica. Viaggia con intelligenza, guida senza intoppi."
+        },
+        "lowEmissionZone": {
+            "title": "Zona a basse emissioni",
+            "description": "Acquista le vignette per le strade a pedaggio, esplora le zone verdi nelle città e paga le multe senza fatica. Viaggia con intelligenza, guida senza intoppi."
+        },
+        "paymentOfFines": {
+            "title": "Pagamento delle multe",
+            "description": "Acquista le vignette per le strade a pedaggio, esplora le zone verdi nelle città e paga le multe senza fatica. Viaggia con intelligenza, guida senza intoppi."
+        }
+    },
+    "Advantages": {
+        "fast": {
+            "title": "Veloce e conveniente",
+            "description": "Evita il fastidio di fermarti nelle aree di servizio e fare la fila."
+        },
+        "use": {
+            "title": "Utilizzo immediato",
+            "description": "Le e-vignette sono attive subito dopo l'acquisto."
+        },
+        "directly": {
+            "title": "Direttamente sul tuo telefono",
+            "description": "Acquista la e-vignetta sul tuo telefono, anche durante il viaggio."
+        },
+        "payments": {
+            "title": "Pagamenti online sicuri",
+            "description": "La nostra vignetta flessibile ti consente di modificare la data di inizio in seguito, se necessario."
+        }
+    },
+    "FinesPayment": {
+        "title": "Pagamento delle multe",
+        "description": "Paga le tue multe in modo rapido e semplice sul nostro sito Web – semplice e pratico.",
+        "button": "Paga ora"
+    }
+}

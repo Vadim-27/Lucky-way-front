@@ -26,7 +26,27 @@ export type IconVariant =
     | 'x'
     | 'class-a'
     | 'class-b'
-    | 'other-vehicles';
+    | 'other-vehicles'
+    | 'Bg-Bulgaria'
+    | 'Dk-Denmark'
+    | 'Ee-Estonia'
+    | 'Es-Spain'
+    | 'Fi-Finland'
+    | 'Fr-France'
+    | 'Hu-Hungary'
+    | 'It-Italy'
+    | 'Lt-Lithuania'
+    | 'Lv-Latvia'
+    | 'Nl-Netherlands'
+    | 'Pl-Poland'
+    | 'Ro-Romania'
+    | 'Ru-Russian-Federation'
+    | 'Se-Sweden'
+    | 'Si-Slovenia'
+    | 'No-Norway'
+    | 'Sk-Slovakia'
+    | 'Tr-Turkey'
+    | 'Ua-Ukraine';
 
 interface IIcon extends SVGProps<SVGSVGElement> {
     variant: IconVariant;

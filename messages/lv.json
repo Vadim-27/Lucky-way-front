@@ -1,0 +1,51 @@
+{
+    "Navigation": {
+        "about": "Par mums",
+        "features": "Funkcijas",
+        "pricing": "Cenas",
+        "blog": "Blogs"
+    },
+    "Hero": {
+        "title": "Sāciet viegli ar Uzņēmuma nosaukumu",
+        "description": "Iegādājieties vinjetes maksas ceļiem, izpētiet zaļās zonas pilsētās un viegli apmaksājiet soda naudas. Ceļojiet gudri, brauciet ērti.",
+        "cta": "Sākt",
+        "secondary": "Uzzināt vairāk"
+    },
+    "ServiceHighlights": {
+        "tollRoads": {
+            "title": "Maksas ceļi",
+            "description": "Iegādājieties vinjetes maksas ceļiem, izpētiet zaļās zonas pilsētās un viegli apmaksājiet soda naudas. Ceļojiet gudri, brauciet ērti."
+        },
+        "lowEmissionZone": {
+            "title": "Zema izmešu zona",
+            "description": "Iegādājieties vinjetes maksas ceļiem, izpētiet zaļās zonas pilsētās un viegli apmaksājiet soda naudas. Ceļojiet gudri, brauciet ērti."
+        },
+        "paymentOfFines": {
+            "title": "Sodu maksājumi",
+            "description": "Iegādājieties vinjetes maksas ceļiem, izpētiet zaļās zonas pilsētās un viegli apmaksājiet soda naudas. Ceļojiet gudri, brauciet ērti."
+        }
+    },
+    "Advantages": {
+        "fast": {
+            "title": "Ātri un ērti",
+            "description": "Izvairieties no apstāšanās atpūtas vietās un gaidīšanas rindās."
+        },
+        "use": {
+            "title": "Tūlītēja lietošana",
+            "description": "E-vinjetes ir aktīvas uzreiz pēc iegādes."
+        },
+        "directly": {
+            "title": "Tieši jūsu telefonā",
+            "description": "Iegādājieties e-vinjeti savā mobilajā telefonā, pat esot ceļā."
+        },
+        "payments": {
+            "title": "Droši tiešsaistes maksājumi",
+            "description": "Ar Flex Vinjeti varat vēlāk mainīt sākuma datumu, ja nepieciešams."
+        }
+    },
+    "FinesPayment": {
+        "title": "Sodu maksājumi",
+        "description": "Ātri un ērti samaksājiet sodus mūsu vietnē – vienkārši un ērti.",
+        "button": "Samaksāt tagad"
+    }
+}

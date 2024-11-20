@@ -1,0 +1,51 @@
+{
+    "Navigation": {
+        "about": "Acerca de",
+        "features": "Funciones",
+        "pricing": "Precios",
+        "blog": "Blog"
+    },
+    "Hero": {
+        "title": "Comienza fácilmente con Nombre de la Empresa",
+        "description": "Compra viñetas para carreteras de peaje, explora zonas verdes en ciudades y paga multas sin complicaciones. Viaja inteligente, conduce sin problemas.",
+        "cta": "Comenzar",
+        "secondary": "Aprender más"
+    },
+    "ServiceHighlights": {
+        "tollRoads": {
+            "title": "Carreteras de peaje",
+            "description": "Compra viñetas para carreteras de peaje, explora zonas verdes en ciudades y paga multas sin complicaciones. Viaja inteligente, conduce sin problemas."
+        },
+        "lowEmissionZone": {
+            "title": "Zona de bajas emisiones",
+            "description": "Compra viñetas para carreteras de peaje, explora zonas verdes en ciudades y paga multas sin complicaciones. Viaja inteligente, conduce sin problemas."
+        },
+        "paymentOfFines": {
+            "title": "Pago de multas",
+            "description": "Compra viñetas para carreteras de peaje, explora zonas verdes en ciudades y paga multas sin complicaciones. Viaja inteligente, conduce sin problemas."
+        }
+    },
+    "Advantages": {
+        "fast": {
+            "title": "Rápido y conveniente",
+            "description": "Evita las paradas en áreas de descanso y las filas."
+        },
+        "use": {
+            "title": "Uso inmediato",
+            "description": "Las viñetas electrónicas están activas de inmediato y pueden comprarse justo antes del viaje."
+        },
+        "directly": {
+            "title": "Directamente en tu teléfono",
+            "description": "Compra la viñeta electrónica en tu móvil incluso mientras estás en la carretera."
+        },
+        "payments": {
+            "title": "Pagos en línea seguros",
+            "description": "Nuestra viñeta flexible te permite ajustar la fecha de inicio más tarde si es necesario."
+        }
+    },
+    "FinesPayment": {
+        "title": "Pago de multas",
+        "description": "¡Paga tus multas rápida y fácilmente en nuestro sitio web – simple y conveniente!",
+        "button": "Pagar ahora"
+    }
+}

@@ -1,0 +1,24 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Fi-Finland--Streamline-Flagpack">
+<g clip-path="url(#clip0_1398_1061)">
+<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M-1 -1V25H24V-1H-1Z" fill="#F7FCFF"/>
+<g id="Mask group">
+<mask id="mask0_1398_1061" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-2" y="-3" width="28" height="30">
+<g id="Group">
+<path id="Vector_2" fill-rule="evenodd" clip-rule="evenodd" d="M-2 -3V27H26V-3H-2Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_1398_1061)">
+<g id="Group_2">
+<path id="Vector_3" d="M8.3073 -1.75H7.59458V9.90369H-0.116455V14.9038H7.59458V28.25H10.4455V14.9038H24.1163V9.90369H10.4455V-1.75H8.3073Z" fill="#2E42A5" stroke="#2E42A5" stroke-width="1.5"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1398_1061">
+<rect width="24" height="24" rx="12" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,25 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Ee-Estonia--Streamline-Flagpack">
+<g clip-path="url(#clip0_1398_1091)">
+<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M0 0V24H24V0H0Z" fill="#F7FCFF"/>
+<g id="Mask group">
+<mask id="mask0_1398_1091" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-1" y="0" width="26" height="24">
+<g id="Group">
+<path id="Vector_2" fill-rule="evenodd" clip-rule="evenodd" d="M-1 0V24H25V0H-1Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_1398_1091)">
+<g id="Group_2">
+<path id="Vector_3" fill-rule="evenodd" clip-rule="evenodd" d="M-1 0V8H25V0H-1Z" fill="#40A8FF"/>
+<path id="Vector_4" fill-rule="evenodd" clip-rule="evenodd" d="M-1 8V16H25V8H-1Z" fill="#272727"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1398_1091">
+<rect width="24" height="24" rx="12" fill="white"/>
+</clipPath>
+</defs>
+</svg>

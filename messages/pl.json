@@ -1,0 +1,51 @@
+{
+    "Navigation": {
+        "about": "O nas",
+        "features": "Funkcje",
+        "pricing": "Cennik",
+        "blog": "Blog"
+    },
+    "Hero": {
+        "title": "Rozpocznij łatwo z Nazwą Firmy",
+        "description": "Kupuj winiety na płatne drogi, odkrywaj zielone strefy w miastach i płać mandaty bez trudu. Podróżuj mądrze, jeździj wygodnie.",
+        "cta": "Rozpocznij",
+        "secondary": "Dowiedz się więcej"
+    },
+    "ServiceHighlights": {
+        "tollRoads": {
+            "title": "Płatne drogi",
+            "description": "Kupuj winiety na płatne drogi, odkrywaj zielone strefy w miastach i płać mandaty bez trudu. Podróżuj mądrze, jeździj wygodnie."
+        },
+        "lowEmissionZone": {
+            "title": "Strefa niskiej emisji",
+            "description": "Kupuj winiety na płatne drogi, odkrywaj zielone strefy w miastach i płać mandaty bez trudu. Podróżuj mądrze, jeździj wygodnie."
+        },
+        "paymentOfFines": {
+            "title": "Płatność mandatów",
+            "description": "Kupuj winiety na płatne drogi, odkrywaj zielone strefy w miastach i płać mandaty bez trudu. Podróżuj mądrze, jeździj wygodnie."
+        }
+    },
+    "Advantages": {
+        "fast": {
+            "title": "Szybko i wygodnie",
+            "description": "Uniknij postoju na stacjach odpoczynku i czekania w kolejkach."
+        },
+        "use": {
+            "title": "Natychmiastowe użycie",
+            "description": "E-winiety są aktywne od razu po zakupie."
+        },
+        "directly": {
+            "title": "Bezpośrednio na telefonie",
+            "description": "Kup e-winietę na swoim telefonie, nawet podczas jazdy."
+        },
+        "payments": {
+            "title": "Bezpieczne płatności online",
+            "description": "Dzięki Flex Winiecie możesz później zmienić datę rozpoczęcia jej ważności."
+        }
+    },
+    "FinesPayment": {
+        "title": "Płatność mandatów",
+        "description": "Szybko i łatwo zapłać mandat na naszej stronie – to proste i wygodne.",
+        "button": "Zapłać teraz"
+    }
+}

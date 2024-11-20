@@ -1,0 +1,51 @@
+{
+    "Navigation": {
+        "about": "Meist",
+        "features": "Funktsioonid",
+        "pricing": "Hinnakiri",
+        "blog": "Blogi"
+    },
+    "Hero": {
+        "title": "Alustage lihtsalt ettevõtte nimega",
+        "description": "Ostke teemaksuvinjetid, uurige linnade rohevööndeid ja tasuge trahvid lihtsalt. Reisige targalt, sõitke sujuvalt.",
+        "cta": "Alusta",
+        "secondary": "Loe lähemalt"
+    },
+    "ServiceHighlights": {
+        "tollRoads": {
+            "title": "Teemaksud",
+            "description": "Ostke teemaksuvinjetid, uurige linnade rohevööndeid ja tasuge trahvid lihtsalt. Reisige targalt, sõitke sujuvalt."
+        },
+        "lowEmissionZone": {
+            "title": "Madala heitkogusega tsoon",
+            "description": "Ostke teemaksuvinjetid, uurige linnade rohevööndeid ja tasuge trahvid lihtsalt. Reisige targalt, sõitke sujuvalt."
+        },
+        "paymentOfFines": {
+            "title": "Trahvide tasumine",
+            "description": "Ostke teemaksuvinjetid, uurige linnade rohevööndeid ja tasuge trahvid lihtsalt. Reisige targalt, sõitke sujuvalt."
+        }
+    },
+    "Advantages": {
+        "fast": {
+            "title": "Kiire ja mugav",
+            "description": "Vältige peatuste tegemist puhkealadel ja järjekorras ootamist."
+        },
+        "use": {
+            "title": "Kohene kasutus",
+            "description": "E-vinjetid aktiveeruvad kohe pärast ostmist."
+        },
+        "directly": {
+            "title": "Otse telefonis",
+            "description": "Ostke e-vinjett oma mobiilis ka sõidu ajal."
+        },
+        "payments": {
+            "title": "Turvalised veebimaksed",
+            "description": "Meie Flex Vinjett võimaldab vajadusel hiljem alustuskuupäeva muuta."
+        }
+    },
+    "FinesPayment": {
+        "title": "Trahvide tasumine",
+        "description": "Tasuge trahvid meie veebilehel kiiresti ja lihtsalt – lihtne ja mugav.",
+        "button": "Tasuge kohe"
+    }
+}
