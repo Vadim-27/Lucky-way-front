@@ -5,10 +5,10 @@
 }
 
 .advantagesList {
-    @apply flex flex-col gap-6 ;
+    @apply flex flex-col gap-6;
 
     @include media-rules(tablet) {
-        @apply flex-row flex-wrap gap-x-1 gap-y-8 items-start;
+        @apply flex-row flex-wrap items-start gap-x-1 gap-y-8;
     }
 }
 

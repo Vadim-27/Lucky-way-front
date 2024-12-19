@@ -25,23 +25,37 @@ const Slider: FC<ISlider> = ({ children, className }) => {
     ]);
     const [selectedIndex, setSelectedIndex] = useState(0);
     const [slideCount, setSlideCount] = useState(0);
+    console.log('children', children);
 
     useEffect(() => {
         if (!emblaApi) return;
-
-        setSlideCount(emblaApi.slideNodes().length);
 
         const onSelect = () => {
             setSelectedIndex(emblaApi.selectedScrollSnap());
         };
 
+        const updateSlideCount = () => {
+            const slideNodes = emblaApi.slideNodes();
+            console.log('slideNodes:', slideNodes);
+            setSlideCount(slideNodes.length);
+        };
+
         emblaApi.on('select', onSelect);
-        onSelect();
+        updateSlideCount();
+
+        // Додаємо обробку на випадок, якщо слайди динамічно змінюються
+        const resizeObserver = new ResizeObserver(() => {
+            updateSlideCount();
+        });
+        resizeObserver.observe(emblaApi.rootNode());
 
         return () => {
             emblaApi.off('select', onSelect);
+            resizeObserver.disconnect();
         };
     }, [emblaApi]);
+
+    console.log('slideCount', slideCount); // Перевірка значення slideCount
 
     return (
         <div>

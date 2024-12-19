@@ -1,5 +1,5 @@
 .button {
-    @apply flex h-[62px] w-[200px] items-center justify-center leading-normal text-white rounded-[100px] gap-3 transition-colors duration-150 ease-linear;
+    @apply flex h-[62px] w-[200px] items-center justify-center gap-3 rounded-[100px] leading-normal text-white transition-colors duration-150 ease-linear;
 }
 
 .primary {
@@ -19,5 +19,5 @@
 }
 
 .arrowIcon {
-    @apply w-[2.125rem] h-[2.125rem] stroke-white fill-none;
+    @apply h-[2.125rem] w-[2.125rem] fill-none stroke-white;
 }

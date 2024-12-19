@@ -1,8 +1,8 @@
 @import '@/styles/mixins';
 
 .container {
-    @apply max-w-screen-mobile mx-auto px-4;
-    
+    @apply mx-auto max-w-screen-mobile px-4;
+
     @include media-rules(tablet) {
         @apply max-w-screen-tablet px-8;
     }

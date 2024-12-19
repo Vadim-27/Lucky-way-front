@@ -1,11 +1,11 @@
 .sidebar {
-    @apply w-[300px] bg-[#030146] h-full py-8 border-t border-t-gray-300/40 flex justify-center;
+    @apply flex h-full w-[300px] justify-center border-t border-t-gray-300/40 bg-[#030146] py-8;
 }
 
 .wrapper {
-    @apply flex flex-col gap-6
+    @apply flex flex-col gap-6;
 }
 
 .link {
-    @apply font-semibold text-2xl text-white leading-normal uppercase;
+    @apply text-2xl font-semibold uppercase leading-normal text-white;
 }

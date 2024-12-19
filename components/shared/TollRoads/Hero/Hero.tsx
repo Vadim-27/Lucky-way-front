@@ -1,9 +1,9 @@
 import HeroCustom from '@/components/ui/HeroCustom';
 import getCurrentLanguage from '@/helpers/getCurrentLanguage';
-import { getHomeHeroText } from '@/services/translation/home';
+import { getDataSectionById } from '@/services/translation/home';
 
 const Hero = async () => {
-    const hero = await getHomeHeroText();
+    const hero = await getDataSectionById(9);
 
     const language = await getCurrentLanguage();
 

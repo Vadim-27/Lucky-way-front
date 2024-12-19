@@ -1,9 +1,13 @@
-import { getLanguages } from '@/services/languages.api';
 import { getUserLocale } from '@/services/locale';
 
-const getCurrentLanguage = async () => {
-    const locale = await getUserLocale();
-    const languages = await getLanguages();
+import { ILanguage } from '../types/languages.types';
+
+const getCurrentLanguage = async (languages: ILanguage[]) => {
+    const [locale] = await Promise.all([getUserLocale()]);
+
+    if (!languages || languages.length === 0) {
+        throw new Error('No languages available');
+    }
 
     return languages.find((lang) => lang.code === locale) || languages[0];
 };

@@ -1,7 +1,7 @@
 @import '@/styles/mixins';
 
 .header {
-    @apply mx-auto p-4 fixed w-full backdrop-blur-[14px] bg-black-45% z-50 transition-colors duration-150 ease-linear;
+    @apply fixed z-50 mx-auto w-full bg-black-45% p-4 backdrop-blur-[14px] transition-colors duration-150 ease-linear;
 
     @include media-rules(tablet) {
         @apply p-8;
@@ -42,9 +42,8 @@
     }
 
     & .langSwitcher {
-    
         @include media-rules(laptop) {
-            @apply absolute right-0 -top-7 block w-[132px];
+            @apply absolute -top-7 right-0 block w-[132px];
         }
     }
 }

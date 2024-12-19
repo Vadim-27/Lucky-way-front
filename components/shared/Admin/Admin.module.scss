@@ -1,7 +1,11 @@
-.header  {
-    @apply py-6 bg-[#030146]
+.header {
+    @apply bg-[#030146] py-6;
 }
 
 .main {
-    @apply h-[calc(100dvh-83px)] flex;
+    @apply flex h-[calc(100dvh-83px)];
+}
+
+.mainAdmin {
+    margin-top: 125px;
 }

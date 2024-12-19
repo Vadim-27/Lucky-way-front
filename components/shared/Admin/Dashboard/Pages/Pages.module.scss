@@ -8,7 +8,7 @@
     @apply py-4 text-2xl font-normal text-[#3f4b97];
 
     &:first-child {
-        @apply pl-4 font-medium cursor-pointer;
+        @apply cursor-pointer pl-4 font-medium;
         text-decoration-skip-ink: none;
 
         &:hover {

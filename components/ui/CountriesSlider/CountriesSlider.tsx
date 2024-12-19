@@ -1,23 +1,38 @@
-import { FC } from 'react';
+import { FC, useEffect, useState } from 'react';
 import clsx from 'clsx';
-import Image from 'next/image';
-import Link from 'next/link';
 
 import { dmSans } from '@/constants/fonts';
-import { ICountry } from '@/types/country.types';
 
+import { getDataPostsSectionById } from '../../../services/translation/home';
+import { IPost } from '../../../types/all.types';
 import Icon from '../Icon';
 import Slider from '../Slider';
+
+import CountryItem from './CountryItem';
 
 import scss from './CountriesSlider.module.scss';
 
 interface ICountriesSlider {
-    countries: ICountry[];
     title: string;
     section?: 'tollRoads' | 'lowEmissionZone';
 }
 
-const CountriesSlider: FC<ICountriesSlider> = ({ countries, title, section = 'tollRoads' }) => {
+const CountriesSlider: FC<ICountriesSlider> = ({ title, section = 'tollRoads' }) => {
+    const [countries, setCountries] = useState<IPost[] | null>(null);
+
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await getDataPostsSectionById(12);
+                setCountries(response);
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
+        };
+
+        fetchData();
+    }, []);
+
     const defaultItem = (
         <div className={scss.defaultItem}>
             <Icon
@@ -41,31 +56,10 @@ const CountriesSlider: FC<ICountriesSlider> = ({ countries, title, section = 'to
             {defaultItem}
             <ul className={scss.countriesList}>
                 <Slider className={scss.slider}>
-                    {countries.map(({ id, image, image_2, contour, name, slug }) => (
-                        <li key={id} className={scss.item}>
-                            <Link href={`/toll-roads/${slug}`} className={scss.link}>
-                                <div className={scss.imageWrapper}>
-                                    <Image
-                                        src={section === 'tollRoads' ? image : image_2}
-                                        priority
-                                        alt={name}
-                                        className={scss.image}
-                                    />
-                                </div>
-
-                                <p className={scss.name}>{name}</p>
-
-                                {section === 'lowEmissionZone' && (
-                                    <Image
-                                        src={contour}
-                                        priority
-                                        alt={name}
-                                        className={scss.contour}
-                                    />
-                                )}
-                            </Link>
-                        </li>
-                    ))}
+                    {Array.isArray(countries) &&
+                        countries.map((post) => (
+                            <CountryItem key={post.id} post={post} section={section} />
+                        ))}
                 </Slider>
             </ul>
         </div>

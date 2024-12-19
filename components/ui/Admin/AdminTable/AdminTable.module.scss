@@ -11,7 +11,7 @@
 }
 
 .column {
-    @apply text-left py-2 font-light text-xl text-[#3f4b97];
+    @apply py-2 text-left text-xl font-light text-[#3f4b97];
 
     &:first-child {
         @apply pl-4;

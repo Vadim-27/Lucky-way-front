@@ -3,14 +3,17 @@
 import { cookies } from 'next/headers';
 
 import { defaultLocale, Locale } from '@/i18n/config';
-// In this example the locale is read from a cookie. You could alternatively
-// also read it from a database, backend service, or any other source.
-const COOKIE_NAME = 'NEXT_LOCALE';
+const LANGUAGE_CODE = 'NEXT_LOCALE';
 
 export async function getUserLocale() {
-    return cookies().get(COOKIE_NAME)?.value || defaultLocale;
+    return cookies().get(LANGUAGE_CODE)?.value || defaultLocale;
 }
 
-export async function setUserLocale(locale: Locale) {
-    cookies().set(COOKIE_NAME, locale);
+export async function getLangIdFromCoockiee() {
+    return await cookies().get('language_id')?.value;
+}
+
+export async function setUserLocale(locale: Locale, languageId: string) {
+    cookies().set(LANGUAGE_CODE, locale);
+    cookies().set('language_id', languageId);
 }

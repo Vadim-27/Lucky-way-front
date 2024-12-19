@@ -19,7 +19,7 @@
     @apply relative z-10 flex cursor-pointer content-center items-center justify-between rounded-[24px] border-[1px] border-[#FED5B0] bg-[#FFF9EC] p-6;
 }
 .accordionTitle {
-    @apply text-2xl font-semibold text-black flex-1 pr-4;
+    @apply flex-1 pr-4 text-2xl font-semibold text-black;
 }
 .accordionBtn {
     @apply flex h-12 w-12 items-center justify-center rounded-[24px] border-[1px] border-[#FB7500];

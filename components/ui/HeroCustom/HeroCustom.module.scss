@@ -1,7 +1,6 @@
 @import '@/styles/mixins';
 
 .hero {
-
     @apply bg-cover bg-center bg-no-repeat py-[106px];
 
     @include media-rules(tablet) {
